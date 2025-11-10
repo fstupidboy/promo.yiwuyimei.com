@@ -1,32 +1,32 @@
 ---
-title: "联系我们"
+title: "Contact Us"
 ---
 
 <div class="contact-info">
-  <h2>联系方式</h2>
+  <h2>Contact Information</h2>
   
   <div class="contact-item">
-    <strong>公司名称</strong>
-    义乌一妹
+    <strong>Company Name</strong>
+    Yiwuyimei
   </div>
   
   <div class="contact-item">
-    <strong>电话</strong>
+    <strong>Phone</strong>
     +86 123-4567-8901
   </div>
   
   <div class="contact-item">
-    <strong>邮箱</strong>
+    <strong>Email</strong>
     contact@yiwuyimei.com
   </div>
   
   <div class="contact-item">
-    <strong>地址</strong>
-    中国浙江省义乌市
+    <strong>Address</strong>
+    Yiwu City, Zhejiang Province, China
   </div>
   
   <div class="contact-item">
-    <strong>营业时间</strong>
-    周一至周五：9:00 - 18:00
+    <strong>Business Hours</strong>
+    Monday - Friday: 9:00 AM - 6:00 PM
   </div>
 </div>
