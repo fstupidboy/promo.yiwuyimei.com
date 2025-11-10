@@ -1,0 +1,8 @@
+baseURL = "https://fstupidboy.github.io/promo.yiwuyimei.com/"
+languageCode = "zh-cn"
+title = "Yiwuyimei Promotional Site"
+theme = ""
+
+[params]
+  description = "Promotional landing site for yiwuyimei"
+  timezone = "Asia/Shanghai"
