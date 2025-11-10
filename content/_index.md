@@ -1,5 +1,5 @@
 ---
-title: "义乌一妹产品展示"
+title: "Yiwuyimei Product Showcase"
 ---
 
-欢迎来到义乌一妹产品展示网站。我们提供高品质的产品，满足您的各种需求。
+Welcome to Yiwuyimei Product Showcase. We offer high-quality products to meet all your needs.

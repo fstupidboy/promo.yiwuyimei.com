@@ -1,10 +1,10 @@
 baseURL = 'https://promo.yiwuyimei.com/'
-languageCode = 'zh-CN'
-title = '义乌一妹产品展示'
+languageCode = 'en-US'
+title = 'Yiwuyimei Product Showcase'
 theme = 'yiwuyimei'
 
 [params]
-  description = '义乌一妹产品展示网站'
+  description = 'Yiwuyimei Product Showcase Website'
   author = 'yiwuyimei'
 
 [taxonomies]
@@ -18,18 +18,18 @@ theme = 'yiwuyimei'
 [menu]
   [[menu.main]]
     identifier = 'home'
-    name = '首页'
+    name = 'Home'
     url = '/'
     weight = 1
   
   [[menu.main]]
     identifier = 'products'
-    name = '产品'
+    name = 'Products'
     url = '/products/'
     weight = 2
   
   [[menu.main]]
     identifier = 'contact'
-    name = '联系我们'
+    name = 'Contact'
     url = '/contact/'
     weight = 3

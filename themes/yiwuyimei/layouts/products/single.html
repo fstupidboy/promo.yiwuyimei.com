@@ -16,7 +16,7 @@
       
       {{- with .Params.specifications }}
         <div class="product-specs">
-          <h3>产品规格</h3>
+          <h3>Product Specifications</h3>
           <ul>
             {{- range . }}
               <li><strong>{{ .name }}:</strong> {{ .value }}</li>
@@ -29,7 +29,7 @@
   
   {{- with .Params.gallery }}
     <div class="product-gallery">
-      <h3>产品图片</h3>
+      <h3>Product Images</h3>
       <div class="gallery-images">
         {{- range . }}
           <img src="{{ . | relURL }}" alt="{{ $.Title }}">
