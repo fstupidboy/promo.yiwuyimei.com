@@ -5,6 +5,8 @@ theme = 'yiwuyimei'
 
 [params]
   description = 'Yiwuyimei Product Showcase Website'
+  # Optional: set a default Open Graph image for link previews (place the file under static/images)
+  # ogImage = '/images/placeholder.jpg'
   author = 'yiwuyimei'
 
 [taxonomies]
