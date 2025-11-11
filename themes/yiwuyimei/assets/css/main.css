@@ -206,6 +206,22 @@ main {
   text-decoration: underline;
 }
 
+/* Home intro text */
+.intro-text {
+  max-width: 960px;
+  margin: 1.25rem auto 1.75rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(90deg,#fffaf5,#fff3e6);
+  border: 1px solid #ffddaa;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #444;
+  box-shadow: 0 2px 6px rgba(255,140,0,0.12);
+}
+
+.intro-text p:last-child { margin-bottom: 0; }
+
 /* Product Detail Page */
 .product-detail {
   display: grid;
