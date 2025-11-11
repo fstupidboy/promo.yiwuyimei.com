@@ -87,7 +87,7 @@ description: "产品描述"
 image: "/images/products/产品图片.jpg"
 specifications:
   - name: "品牌"
-    value: "义乌一妹"
+    value: "壹物壹美"
   - name: "型号"
     value: "YW-001"
 gallery:
