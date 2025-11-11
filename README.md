@@ -1,6 +1,6 @@
 # promo.yiwuyimei.com
 
-义乌一妹产品展示网站 - Promotional landing site for yiwuyimei
+壹物壹美产品展示网站 - Promotional landing site for yiwuyimei
 
 ## 项目介绍
 
