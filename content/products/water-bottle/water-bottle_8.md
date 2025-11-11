@@ -1,21 +1,28 @@
----
-title: "Infuser Water Bottle"
+title: "Water Bottle YWYM-YC001"
 category: "Water Bottle"
-description: "Fruit infuser for flavored water on the go"
-image: "/images/products/water-bottle/water-bottle_8.jpg"
+description: "Water bottle model YWYM-YC001"
+image: "/images/products/water-bottle/YWYM-YC001/YWYM-YC001.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
+  - name: "Material"
+    value: "Stainless steel / Glass"
   - name: "Capacity"
-    value: "500ml - 1000ml"
+    value: "Varied capacities"
   - name: "Features"
     value: "BPA-free and leak-proof"
-  - name: "Use"
-    value: "Sports, travel, daily use"
+  - name: "SKU"
+    value: "YWYM-YC001"
+  - name: "Dimensions"
+    value: "TBD"
+  - name: "Weight"
+    value: "TBD"
 gallery:
-  - "/images/products/water-bottle/water-bottle_8.jpg"
-  - "/images/products/water-bottle/water-bottle_8.jpg"
-  - "/images/products/water-bottle/water-bottle_8.jpg"
+  - "/images/products/water-bottle/YWYM-YC001/YWYM-YC001.png"
+  - "/images/products/water-bottle/YWYM-YC001/图片2.png"
+  - "/images/products/water-bottle/YWYM-YC001/图片3.png"
+  - "/images/products/water-bottle/YWYM-YC001/图片4.png"
+  - "/images/products/water-bottle/YWYM-YC001/产品信息.png"
 ---
 
-High-quality infuser water bottle. Fruit infuser for flavored water on the go. Stay hydrated with style and convenience.
+High-quality water bottle model YWYM-YC001. Contact us for pricing and customization.
