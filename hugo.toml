@@ -8,7 +8,7 @@ theme = 'yiwuyimei'
   # Optional: set a default Open Graph image for link previews (place the file under static/images)
   # ogImage = '/images/placeholder.jpg'
   [params.banners]
-    homeImage = '/images/banners/home.jpg'
+    homeImage = '/images/banners/banner.jpg'
     homeTitle = 'Yiwuyimei Products'
     homeSubtitle = 'Quality vases & bottles for modern lifestyles'
     productsImage = '/images/placeholder.jpg'
