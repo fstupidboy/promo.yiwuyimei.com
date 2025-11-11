@@ -1,7 +1,9 @@
 {{ define "main" }}
   <div class="home-content">
     {{ partial "banner.html" . }}
-    {{ .Content }}
+    <div class="intro-text">
+      {{ .Content }}
+    </div>
     
     {{- $products := where site.RegularPages "Section" "products" }}
     {{- $categories := slice }}
