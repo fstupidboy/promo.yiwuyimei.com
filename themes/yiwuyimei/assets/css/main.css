@@ -332,6 +332,7 @@ nav.pagination, ul.pagination {
 
 ul.pagination li {
   list-style: none;
+  border: 0;
 }
 
 ul.pagination li a,
@@ -339,8 +340,8 @@ ul.pagination li span {
   display: inline-block;
   min-width: 36px;
   padding: 0.4rem 0.75rem;
-  border: 1px solid #ff8c00;
-  border-radius: 4px;
+  border: 2px solid #ff8c00;
+  border-radius: 8px;
   color: #ff8c00;
   background: #fff;
   text-decoration: none;
@@ -352,6 +353,17 @@ ul.pagination li.active span,
 ul.pagination li a:hover {
   background: #ff8c00;
   color: #fff;
+  border-color: #ff8c00;
+}
+
+/* Extra safety for Hugo internal classes */
+nav.pagination .page-item.active > .page-link,
+nav.pagination .active > span,
+ul.pagination .page-item.active > .page-link,
+ul.pagination .active > span {
+  background: #ff8c00 !important;
+  color: #fff !important;
+  border-color: #ff8c00 !important;
 }
 
 /* Responsive Design */
