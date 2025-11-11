@@ -121,12 +121,13 @@ main {
 .banner-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(255,140,0,0.75), rgba(255,140,0,0.35));
+  background: none; /* remove color/tint overlay */
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1.5rem 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.35); /* subtle readability without tint */
 }
 
 .banner-overlay h1 {
