@@ -2,7 +2,7 @@
 title: "Colored Glass Vase"
 category: "Glass Vase"
 description: "Vibrant colored glass vase adds elegance to any room"
-image: "/images/products/glass-vase_2.jpg"
+image: "/images/products/glass-vase/glass-vase_2.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Care"
     value: "Hand wash recommended"
 gallery:
-  - "/images/products/glass-vase_2.jpg"
-  - "/images/products/glass-vase_2.jpg"
-  - "/images/products/glass-vase_2.jpg"
+  - "/images/products/glass-vase/glass-vase_2.jpg"
+  - "/images/products/glass-vase/glass-vase_2.jpg"
+  - "/images/products/glass-vase/glass-vase_2.jpg"
 ---
 
 Premium colored glass vase. Vibrant colored glass vase adds elegance to any room. Perfect for home decoration and special occasions.

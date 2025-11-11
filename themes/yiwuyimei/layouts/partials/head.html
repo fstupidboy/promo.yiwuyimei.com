@@ -1,5 +1,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}" />
+<meta name="description" content="{{ with site.Params.description }}{{ . }}{{ end }}" />
+<meta property="og:description" content="{{ with site.Params.description }}{{ . }}{{ end }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ with site.Params.ogImage }}
+<meta property="og:image" content="{{ . }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" $.Title site.Title }}{{ end }}" />
+<meta name="twitter:description" content="{{ with site.Params.description }}{{ . }}{{ end }}" />
+<meta name="twitter:image" content="{{ . }}" />
+{{ end }}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

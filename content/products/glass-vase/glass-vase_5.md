@@ -2,7 +2,7 @@
 title: "Round Glass Vase"
 category: "Glass Vase"
 description: "Classic round shape fits any decor style"
-image: "/images/products/glass-vase_5.jpg"
+image: "/images/products/glass-vase/glass-vase_5.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Care"
     value: "Hand wash recommended"
 gallery:
-  - "/images/products/glass-vase_5.jpg"
-  - "/images/products/glass-vase_5.jpg"
-  - "/images/products/glass-vase_5.jpg"
+  - "/images/products/glass-vase/glass-vase_5.jpg"
+  - "/images/products/glass-vase/glass-vase_5.jpg"
+  - "/images/products/glass-vase/glass-vase_5.jpg"
 ---
 
 Premium round glass vase. Classic round shape fits any decor style. Perfect for home decoration and special occasions.

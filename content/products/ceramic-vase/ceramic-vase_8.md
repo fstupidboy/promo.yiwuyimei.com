@@ -2,7 +2,7 @@
 title: "Floral Pattern Ceramic Vase"
 category: "Ceramic Vase"
 description: "Delicate floral motifs hand-painted"
-image: "/images/products/ceramic-vase_8.jpg"
+image: "/images/products/ceramic-vase/ceramic-vase_8.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Style"
     value: "Traditional and modern"
 gallery:
-  - "/images/products/ceramic-vase_8.jpg"
-  - "/images/products/ceramic-vase_8.jpg"
-  - "/images/products/ceramic-vase_8.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_8.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_8.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_8.jpg"
 ---
 
 Exquisite floral pattern ceramic vase. Delicate floral motifs hand-painted. Crafted with attention to detail and quality.

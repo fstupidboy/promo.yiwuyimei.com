@@ -2,7 +2,7 @@
 title: "Blue Ceramic Vase"
 category: "Ceramic Vase"
 description: "Classic blue and white porcelain style"
-image: "/images/products/ceramic-vase_6.jpg"
+image: "/images/products/ceramic-vase/ceramic-vase_6.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Style"
     value: "Traditional and modern"
 gallery:
-  - "/images/products/ceramic-vase_6.jpg"
-  - "/images/products/ceramic-vase_6.jpg"
-  - "/images/products/ceramic-vase_6.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_6.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_6.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_6.jpg"
 ---
 
 Exquisite blue ceramic vase. Classic blue and white porcelain style. Crafted with attention to detail and quality.

@@ -1,6 +1,8 @@
 # promo.yiwuyimei.com
 
-壹物壹美产品展示网站 - Promotional landing site for yiwuyimei
+Note: This site targets English-speaking customers only. Brand is standardized as "Yiwuyimei" (English). Any previous Chinese brand naming has been removed.
+
+Yiwuyimei Product Showcase Website - Promotional landing site for Yiwuyimei
 
 ## 项目介绍
 
@@ -87,7 +89,7 @@ description: "产品描述"
 image: "/images/products/产品图片.jpg"
 specifications:
   - name: "品牌"
-    value: "壹物壹美"
+    value: "Yiwuyimei"
   - name: "型号"
     value: "YW-001"
 gallery:
