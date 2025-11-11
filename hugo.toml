@@ -7,6 +7,17 @@ theme = 'yiwuyimei'
   description = 'Yiwuyimei Product Showcase Website'
   # Optional: set a default Open Graph image for link previews (place the file under static/images)
   # ogImage = '/images/placeholder.jpg'
+  [params.banners]
+    homeImage = '/images/placeholder.jpg'
+    homeTitle = 'Yiwuyimei Products'
+    homeSubtitle = 'Quality vases & bottles for modern lifestyles'
+    productsImage = '/images/placeholder.jpg'
+    productsTitle = 'Browse Products'
+    productsSubtitle = 'Explore our full collection'
+    contactImage = '/images/placeholder.jpg'
+    contactTitle = 'Contact Us'
+    contactSubtitle = 'Reach out for quotes & cooperation'
+    defaultImage = '/images/placeholder.jpg'
   author = 'yiwuyimei'
 
 [taxonomies]

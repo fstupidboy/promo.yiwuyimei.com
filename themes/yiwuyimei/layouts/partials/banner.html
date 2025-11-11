@@ -1,0 +1,28 @@
+{{/* Reusable banner component with optional section-specific images/titles */}}
+{{- $b := site.Params.banners -}}
+{{- $img := "/images/placeholder.jpg" -}}
+{{- $title := cond .IsHome site.Title .Title -}}
+{{- $subtitle := "" -}}
+
+{{- if .IsHome -}}
+  {{- with $b.homeImage }}{{ $img = . }}{{ end -}}
+  {{- with $b.homeTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.homeSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- else if and (eq .Section "products") (eq .Kind "section") -}}
+  {{- with $b.productsImage }}{{ $img = . }}{{ end -}}
+  {{- with $b.productsTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.productsSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- else if or (eq .Section "contact") (eq .Type "contact") -}}
+  {{- with $b.contactImage }}{{ $img = . }}{{ end -}}
+  {{- with $b.contactTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.contactSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- else -}}
+  {{- with $b.defaultImage }}{{ $img = . }}{{ end -}}
+{{- end -}}
+
+<div class="banner" style="background-image: url('{{ $img }}');">
+  <div class="banner-overlay">
+    <h1>{{ $title }}</h1>
+    {{- with $subtitle }}<p>{{ . }}</p>{{ end -}}
+  </div>
+</div>

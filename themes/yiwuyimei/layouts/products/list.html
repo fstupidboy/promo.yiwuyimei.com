@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ partial "banner.html" . }}
+  <div class="category-page">
+    <h1>{{ .Title }}</h1>
+    <div class="products-grid">
+      {{- range .Pages }}
+        <a href="{{ .RelPermalink }}" class="product-card">
+          {{- with .Params.image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+          {{- else }}
+            <img src="/images/placeholder.jpg" alt="{{ $.Title }}">
+          {{- end }}
+          <div class="product-card-content">
+            <h3>{{ .Title }}</h3>
+          </div>
+        </a>
+      {{- end }}
+    </div>
+  </div>
+{{ end }}
