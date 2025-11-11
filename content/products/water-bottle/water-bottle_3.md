@@ -1,21 +1,25 @@
----
-title: "Insulated Water Bottle"
+title: "Water Bottle YWYM-WG09"
 category: "Water Bottle"
-description: "Double-wall vacuum insulation for temperature control"
-image: "/images/products/water-bottle/water-bottle_3.jpg"
+description: "Water bottle model YWYM-WG09"
+image: "/images/products/water-bottle/YWYM-WG09/YWYM-WG09.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
+  - name: "Material"
+    value: "Stainless steel / Glass"
   - name: "Capacity"
-    value: "500ml - 1000ml"
+    value: "Varied capacities"
   - name: "Features"
     value: "BPA-free and leak-proof"
-  - name: "Use"
-    value: "Sports, travel, daily use"
+  - name: "SKU"
+    value: "YWYM-WG09"
+  - name: "Dimensions"
+    value: "TBD"
+  - name: "Weight"
+    value: "TBD"
 gallery:
-  - "/images/products/water-bottle/water-bottle_3.jpg"
-  - "/images/products/water-bottle/water-bottle_3.jpg"
-  - "/images/products/water-bottle/water-bottle_3.jpg"
+  - "/images/products/water-bottle/YWYM-WG09/YWYM-WG09.png"
+  - "/images/products/water-bottle/YWYM-WG09/产品信息.png"
 ---
 
 High-quality insulated water bottle. Double-wall vacuum insulation for temperature control. Stay hydrated with style and convenience.
