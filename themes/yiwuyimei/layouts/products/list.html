@@ -3,12 +3,13 @@
   <div class="category-page">
     <h1>{{ .Title }}</h1>
     <div class="products-grid">
-      {{- range .Pages }}
+      {{- $p := .Paginate .Pages 24 }}
+      {{- range $p.Pages }}
         <a href="{{ .RelPermalink }}" class="product-card">
           {{- with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
           {{- else }}
-            <img src="/images/placeholder.jpg" alt="{{ $.Title }}">
+            <img src="/images/placeholder.jpg" alt="{{ $.Title }}" loading="lazy" decoding="async">
           {{- end }}
           <div class="product-card-content">
             <h3>{{ .Title }}</h3>
@@ -16,5 +17,6 @@
         </a>
       {{- end }}
     </div>
+    {{ template "_internal/pagination.html" . }}
   </div>
 {{ end }}
