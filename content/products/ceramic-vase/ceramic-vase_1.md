@@ -2,7 +2,7 @@
 title: "White Ceramic Vase"
 category: "Ceramic Vase"
 description: "Pure white ceramic with smooth glaze finish"
-image: "/images/products/ceramic-vase_1.jpg"
+image: "/images/products/ceramic-vase/ceramic-vase_1.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Style"
     value: "Traditional and modern"
 gallery:
-  - "/images/products/ceramic-vase_1.jpg"
-  - "/images/products/ceramic-vase_1.jpg"
-  - "/images/products/ceramic-vase_1.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_1.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_1.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_1.jpg"
 ---
 
 Exquisite white ceramic vase. Pure white ceramic with smooth glaze finish. Crafted with attention to detail and quality.

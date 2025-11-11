@@ -2,7 +2,7 @@
 title: "Clear Glass Vase"
 category: "Glass Vase"
 description: "Transparent glass vase with smooth finish perfect for displaying flowers"
-image: "/images/products/glass-vase_1.jpg"
+image: "/images/products/glass-vase/glass-vase_1.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Care"
     value: "Hand wash recommended"
 gallery:
-  - "/images/products/glass-vase_1.jpg"
-  - "/images/products/glass-vase_1.jpg"
-  - "/images/products/glass-vase_1.jpg"
+  - "/images/products/glass-vase/glass-vase_1.jpg"
+  - "/images/products/glass-vase/glass-vase_1.jpg"
+  - "/images/products/glass-vase/glass-vase_1.jpg"
 ---
 
 Premium clear glass vase. Transparent glass vase with smooth finish perfect for displaying flowers. Perfect for home decoration and special occasions.

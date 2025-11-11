@@ -2,7 +2,7 @@
 title: "Rustic Ceramic Vase"
 category: "Ceramic Vase"
 description: "Earthy tones with natural texture"
-image: "/images/products/ceramic-vase_5.jpg"
+image: "/images/products/ceramic-vase/ceramic-vase_5.jpg"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
@@ -13,9 +13,9 @@ specifications:
   - name: "Style"
     value: "Traditional and modern"
 gallery:
-  - "/images/products/ceramic-vase_5.jpg"
-  - "/images/products/ceramic-vase_5.jpg"
-  - "/images/products/ceramic-vase_5.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_5.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_5.jpg"
+  - "/images/products/ceramic-vase/ceramic-vase_5.jpg"
 ---
 
 Exquisite rustic ceramic vase. Earthy tones with natural texture. Crafted with attention to detail and quality.
