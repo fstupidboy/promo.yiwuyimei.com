@@ -319,6 +319,41 @@ footer p {
   margin: 0.5rem 0;
 }
 
+/* Pagination */
+nav.pagination, ul.pagination {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.pagination li {
+  list-style: none;
+}
+
+ul.pagination li a,
+ul.pagination li span {
+  display: inline-block;
+  min-width: 36px;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #ff8c00;
+  border-radius: 4px;
+  color: #ff8c00;
+  background: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+ul.pagination li.active span,
+ul.pagination li a:hover {
+  background: #ff8c00;
+  color: #fff;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .products-grid {
