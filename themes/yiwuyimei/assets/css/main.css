@@ -161,6 +161,19 @@ main {
   font-size: 1.8rem;
 }
 
+.category-actions {
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+.category-more {
+  font-weight: 600;
+  color: #ff8c00;
+}
+.category-more:hover {
+  text-decoration: underline;
+}
+
 /* Product Detail Page */
 .product-detail {
   display: grid;
