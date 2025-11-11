@@ -30,6 +30,9 @@
             </a>
           {{- end }}
         </div>
+        <div class="category-actions">
+          <a class="category-more" href="{{ (printf "/categories/%s/" (urlize $category)) | relURL }}">more...</a>
+        </div>
       </div>
     {{- end }}
   </div>
