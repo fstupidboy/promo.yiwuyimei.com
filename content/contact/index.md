@@ -17,12 +17,12 @@ title: "Contact Us"
   
   <div class="contact-item">
     <strong>Email</strong>
-    contact@yiwuyimei.com
+    fiona@yiwuyimei.com
   </div>
   
   <div class="contact-item">
     <strong>Address</strong>
-    Yiwu City, Zhejiang Province, China
+    Room 1304C, 13th Floor Building 19 Zhonghaixin New Industrial Park, Longgang District, Shenzhen Guangdong, China
   </div>
   
   <div class="contact-item">
