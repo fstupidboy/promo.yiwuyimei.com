@@ -12,7 +12,7 @@
   {{- with $b.productsImage }}{{ $img = . }}{{ end -}}
   {{- with $b.productsTitle }}{{ $title = . }}{{ end -}}
   {{- with $b.productsSubtitle }}{{ $subtitle = . }}{{ end -}}
-{{- else if or (eq .Section "contact") (eq .Type "contact") -}}
+{{- else if or (eq .Section "contact") (eq .Type "contact") (eq .RelPermalink "/contact/") -}}
   {{- with $b.contactImage }}
     {{ $img = . }}
   {{- else }}
