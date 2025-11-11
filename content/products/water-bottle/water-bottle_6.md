@@ -1,21 +1,29 @@
----
-title: "Filtered Water Bottle"
+title: "Water Bottle YWYM-XD017"
 category: "Water Bottle"
-description: "Built-in filter for clean water anywhere"
-image: "/images/products/water-bottle/water-bottle_6.jpg"
+description: "Water bottle model YWYM-XD017"
+image: "/images/products/water-bottle/YWYM-XD017/YWYM-XD017.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
+  - name: "Material"
+    value: "Stainless steel / Glass"
   - name: "Capacity"
-    value: "500ml - 1000ml"
+    value: "Varied capacities"
   - name: "Features"
     value: "BPA-free and leak-proof"
-  - name: "Use"
-    value: "Sports, travel, daily use"
+  - name: "SKU"
+    value: "YWYM-XD017"
+  - name: "Dimensions"
+    value: "TBD"
+  - name: "Weight"
+    value: "TBD"
 gallery:
-  - "/images/products/water-bottle/water-bottle_6.jpg"
-  - "/images/products/water-bottle/water-bottle_6.jpg"
-  - "/images/products/water-bottle/water-bottle_6.jpg"
+  - "/images/products/water-bottle/YWYM-XD017/YWYM-XD017.png"
+  - "/images/products/water-bottle/YWYM-XD017/图片2.png"
+  - "/images/products/water-bottle/YWYM-XD017/图片3.png"
+  - "/images/products/water-bottle/YWYM-XD017/图片4.png"
+  - "/images/products/water-bottle/YWYM-XD017/图片5.png"
+  - "/images/products/water-bottle/YWYM-XD017/产品信息.png"
 ---
 
-High-quality filtered water bottle. Built-in filter for clean water anywhere. Stay hydrated with style and convenience.
+High-quality water bottle model YWYM-XD017. Contact us for pricing and customization.
