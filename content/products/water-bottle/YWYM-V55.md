@@ -2,7 +2,11 @@
 title: "Water Bottle YWYM-V55"
 category: "Water Bottle"
 description: "Water bottle model YWYM-V55"
-image: "/images/products/water-bottle/YWYM-V55/_DSC2844b.jpg"
+image: "/images/products/water-bottle/YWYM-V55/图片1.png"
+gallery:
+  - "/images/products/water-bottle/YWYM-V55/图片2.png"
+  - "/images/products/water-bottle/YWYM-V55/图片3.png"
+  - "/images/products/water-bottle/YWYM-V55/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
