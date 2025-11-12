@@ -3,6 +3,11 @@ title: "Water Bottle YWYM-SMS30"
 category: "Water Bottle"
 description: "Water bottle model YWYM-SMS30"
 image: "/images/products/water-bottle/YWYM-SMS30/图片1.png"
+gallery:
+  - "/images/products/water-bottle/YWYM-SMS30/图片2.png"
+  - "/images/products/water-bottle/YWYM-SMS30/图片3.png"
+  - "/images/products/water-bottle/YWYM-SMS30/图片4.png"
+  - "/images/products/water-bottle/YWYM-SMS30/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

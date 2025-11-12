@@ -3,6 +3,12 @@ title: "Water Bottle YWYM-ST50A"
 category: "Water Bottle"
 description: "Water bottle model YWYM-ST50A"
 image: "/images/products/water-bottle/YWYM-ST50A/图片1.png"
+gallery:
+  - "/images/products/water-bottle/YWYM-ST50A/图片2.png"
+  - "/images/products/water-bottle/YWYM-ST50A/图片3.png"
+  - "/images/products/water-bottle/YWYM-ST50A/图片4.png"
+  - "/images/products/water-bottle/YWYM-ST50A/图片5.png"
+  - "/images/products/water-bottle/YWYM-ST50A/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

@@ -2,7 +2,9 @@
 title: "Water Bottle YWYM-VA50"
 category: "Water Bottle"
 description: "Water bottle model YWYM-VA50"
-image: "/images/products/water-bottle/YWYM-VA50/_DSC2844b.jpg"
+image: "/images/products/water-bottle/YWYM-VA50/图片.png"
+gallery:
+  - "/images/products/water-bottle/YWYM-VA50/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
