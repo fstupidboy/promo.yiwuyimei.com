@@ -46,3 +46,9 @@ theme = 'yiwuyimei'
     name = 'Contact'
     url = '/contact/'
     weight = 3
+
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About Us'
+    url = '/about/'
+    weight = 4
