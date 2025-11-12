@@ -17,3 +17,13 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Video files (not needed for deployment)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+*.m4v
