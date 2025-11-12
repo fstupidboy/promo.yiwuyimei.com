@@ -7,9 +7,9 @@ specifications:
   - name: "Brand"
     value: "Yiwuyimei"
   - name: "Material"
-    value: "Stainless steel / Glass"
+    value: "TBD"
   - name: "Capacity"
-    value: "Varied capacities"
+    value: "TBD"
   - name: "Features"
     value: "BPA-free and leak-proof"
   - name: "SKU"
@@ -18,6 +18,10 @@ specifications:
     value: "TBD"
   - name: "Weight"
     value: "TBD"
+gallery:
+  - "/images/products/water-bottle/YWYM-YT050/YT050-1.jpg"
+  - "/images/products/water-bottle/YWYM-YT050/_DSC4884B.jpg"
+  - "/images/products/water-bottle/YWYM-YT050/_DSC4885B.jpg"
 ---
 
 High-quality water bottle model YWYM-YT050. Contact us for pricing and customization.
