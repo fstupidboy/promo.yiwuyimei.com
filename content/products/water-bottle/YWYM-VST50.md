@@ -22,7 +22,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-VST50/图片1.png"
   - "/images/products/water-bottle/YWYM-VST50/图片2.png"
   - "/images/products/water-bottle/YWYM-VST50/图片3.png"
-  - "/images/products/water-bottle/YWYM-VST50/产品信息.png"
+  - "/images/products/water-bottle/YWYM-VST50/product-info.png"
 ---
 
 High-quality water bottle model YWYM-VST50. Contact us for pricing and customization.

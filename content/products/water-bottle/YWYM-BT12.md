@@ -8,7 +8,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-BT12/BT012-BT030.jpg"
   - "/images/products/water-bottle/YWYM-BT12/BT012-BT030-BT040.jpg"
   - "/images/products/water-bottle/YWYM-BT12/_DSC4866B.jpg"
-  - "/images/products/water-bottle/YWYM-BT12/产品信息.png"
+  - "/images/products/water-bottle/YWYM-BT12/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

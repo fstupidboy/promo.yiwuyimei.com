@@ -7,8 +7,8 @@ gallery:
   - "/images/products/water-bottle/YWYM-AJ009/图片2.jpg"
   - "/images/products/water-bottle/YWYM-AJ009/图片3.jpg"
   - "/images/products/water-bottle/YWYM-AJ009/图片4.jpg"
-  - "/images/products/water-bottle/YWYM-AJ009/尺寸.jpg"
-  - "/images/products/water-bottle/YWYM-AJ009/产品信息.png"
+  - "/images/products/water-bottle/YWYM-AJ009/dimensions.jpg"
+  - "/images/products/water-bottle/YWYM-AJ009/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

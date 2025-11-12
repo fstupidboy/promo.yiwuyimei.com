@@ -5,7 +5,7 @@ description: "Water bottle model YWYM-CT75"
 image: "/images/products/water-bottle/YWYM-CT75/图片1.png"
 gallery:
   - "/images/products/water-bottle/YWYM-CT75/图片2.png"
-  - "/images/products/water-bottle/YWYM-CT75/产品信息.png"
+  - "/images/products/water-bottle/YWYM-CT75/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

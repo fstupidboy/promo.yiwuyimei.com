@@ -24,7 +24,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-XD016/图片3.png"
   - "/images/products/water-bottle/YWYM-XD016/图片4.png"
   - "/images/products/water-bottle/YWYM-XD016/图片5.png"
-  - "/images/products/water-bottle/YWYM-XD016/产品信息.png"
+  - "/images/products/water-bottle/YWYM-XD016/product-info.png"
 ---
 
 High-quality collapsible water bottle. Space-saving design folds when empty. Stay hydrated with style and convenience.

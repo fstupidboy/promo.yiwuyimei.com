@@ -23,7 +23,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-WG03/图片2.png"
   - "/images/products/water-bottle/YWYM-WG03/图片3.png"
   - "/images/products/water-bottle/YWYM-WG03/图片4.png"
-  - "/images/products/water-bottle/YWYM-WG03/产品信息.png"
+  - "/images/products/water-bottle/YWYM-WG03/product-info.png"
 ---
 
 High-quality water bottle model YWYM-WG03. Contact us for pricing and customization.

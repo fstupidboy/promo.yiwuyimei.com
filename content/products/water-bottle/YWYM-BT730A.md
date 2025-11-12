@@ -8,7 +8,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-BT730A/图片3.png"
   - "/images/products/water-bottle/YWYM-BT730A/图片4.png"
   - "/images/products/water-bottle/YWYM-BT730A/图片5.png"
-  - "/images/products/water-bottle/YWYM-BT730A/产品信息.png"
+  - "/images/products/water-bottle/YWYM-BT730A/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

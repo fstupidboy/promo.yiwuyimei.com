@@ -4,7 +4,7 @@ category: "Water Bottle"
 description: "Water bottle model YWYM-CP100A"
 image: "/images/products/water-bottle/YWYM-CP100A/图片.png"
 gallery:
-  - "/images/products/water-bottle/YWYM-CP100A/产品信息.png"
+  - "/images/products/water-bottle/YWYM-CP100A/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

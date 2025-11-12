@@ -23,7 +23,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-NE07B/图片2.png"
   - "/images/products/water-bottle/YWYM-NE07B/图片3.png"
   - "/images/products/water-bottle/YWYM-NE07B/图片4.png"
-  - "/images/products/water-bottle/YWYM-NE07B/产品信息.png"
+  - "/images/products/water-bottle/YWYM-NE07B/product-info.png"
 ---
 
 High-quality water bottle model YWYM-NE07B. Contact us for pricing and customization.

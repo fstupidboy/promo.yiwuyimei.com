@@ -4,7 +4,7 @@ category: "Water Bottle"
 description: "Water bottle model YWYM-BK013"
 image: "/images/products/water-bottle/YWYM-BK013/图片.png"
 gallery:
-  - "/images/products/water-bottle/YWYM-BK013/产品信息.png"
+  - "/images/products/water-bottle/YWYM-BK013/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

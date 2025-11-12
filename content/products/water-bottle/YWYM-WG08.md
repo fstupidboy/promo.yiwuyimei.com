@@ -20,7 +20,7 @@ specifications:
     value: "TBD"
 gallery:
   - "/images/products/water-bottle/YWYM-WG08/YWYM-WG08.png"
-  - "/images/products/water-bottle/YWYM-WG08/产品信息.png"
+  - "/images/products/water-bottle/YWYM-WG08/product-info.png"
 ---
 
 High-quality water bottle model YWYM-WG08. Contact us for pricing and customization.

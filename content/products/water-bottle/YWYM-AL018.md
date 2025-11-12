@@ -6,7 +6,7 @@ image: "/images/products/water-bottle/YWYM-AL018/AL018.jpg"
 gallery:
   - "/images/products/water-bottle/YWYM-AL018/AL018(2).JPG"
   - "/images/products/water-bottle/YWYM-AL018/AL018(3).JPG"
-  - "/images/products/water-bottle/YWYM-AL018/AL018军绿 尺寸.jpg"
+  - "/images/products/water-bottle/YWYM-AL018/AL018军绿 dimensions.jpg"
   - "/images/products/water-bottle/YWYM-AL018/AL018军绿.JPG"
   - "/images/products/water-bottle/YWYM-AL018/AL018浅蓝.JPG"
   - "/images/products/water-bottle/YWYM-AL018/AL018深蓝.JPG"

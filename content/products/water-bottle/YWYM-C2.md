@@ -8,7 +8,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-C2/图片3.jpg"
   - "/images/products/water-bottle/YWYM-C2/图片4.jpg"
   - "/images/products/water-bottle/YWYM-C2/图片5.jpg"
-  - "/images/products/water-bottle/YWYM-C2/产品信息.png"
+  - "/images/products/water-bottle/YWYM-C2/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

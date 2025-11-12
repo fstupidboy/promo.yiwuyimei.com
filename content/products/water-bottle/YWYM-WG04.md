@@ -24,7 +24,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-WG04/图片3.jpg"
   - "/images/products/water-bottle/YWYM-WG04/图片4.jpg"
   - "/images/products/water-bottle/YWYM-WG04/图片5.jpg"
-  - "/images/products/water-bottle/YWYM-WG04/产品信息.png"
+  - "/images/products/water-bottle/YWYM-WG04/product-info.png"
 ---
 
 High-quality water bottle model YWYM-WG04. Contact us for pricing and customization.

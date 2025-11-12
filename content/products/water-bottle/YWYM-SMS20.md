@@ -7,7 +7,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-SMS20/图片2.png"
   - "/images/products/water-bottle/YWYM-SMS20/图片3.png"
   - "/images/products/water-bottle/YWYM-SMS20/图片4.png"
-  - "/images/products/water-bottle/YWYM-SMS20/产品信息.png"
+  - "/images/products/water-bottle/YWYM-SMS20/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

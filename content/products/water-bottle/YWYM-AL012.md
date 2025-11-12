@@ -7,7 +7,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-AL012/图片2.png"
   - "/images/products/water-bottle/YWYM-AL012/图片3.png"
   - "/images/products/water-bottle/YWYM-AL012/图片4.png"
-  - "/images/products/water-bottle/YWYM-AL012/产品信息.png"
+  - "/images/products/water-bottle/YWYM-AL012/product-info.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

@@ -23,7 +23,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-YT010S/图片2.png"
   - "/images/products/water-bottle/YWYM-YT010S/图片3.png"
   - "/images/products/water-bottle/YWYM-YT010S/图片4.png"
-  - "/images/products/water-bottle/YWYM-YT010S/产品信息.png"
+  - "/images/products/water-bottle/YWYM-YT010S/product-info.png"
 ---
 
 High-quality water bottle model YWYM-YT010S. Contact us for pricing and customization.

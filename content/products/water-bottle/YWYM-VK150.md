@@ -22,7 +22,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-VK150/_DSC2844b.jpg"
   - "/images/products/water-bottle/YWYM-VK150/_DSC2846b.jpg"
   - "/images/products/water-bottle/YWYM-VK150/_DSC2866b.jpg"
-  - "/images/products/water-bottle/YWYM-VK150/产品信息.png"
+  - "/images/products/water-bottle/YWYM-VK150/product-info.png"
 ---
 
 High-quality water bottle model YWYM-VK150. Contact us for pricing and customization.

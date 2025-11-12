@@ -24,7 +24,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-16VE/图片3.png"
   - "/images/products/water-bottle/YWYM-16VE/图片4.png"
   - "/images/products/water-bottle/YWYM-16VE/图片5.png"
-  - "/images/products/water-bottle/YWYM-16VE/产品信息.png"
+  - "/images/products/water-bottle/YWYM-16VE/product-info.png"
 ---
 
 High-quality water bottle model YWYM-16VE. Contact us for pricing and customization.

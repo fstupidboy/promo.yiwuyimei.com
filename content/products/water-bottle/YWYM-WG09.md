@@ -20,7 +20,7 @@ specifications:
     value: "TBD"
 gallery:
   - "/images/products/water-bottle/YWYM-WG09/YWYM-WG09.png"
-  - "/images/products/water-bottle/YWYM-WG09/产品信息.png"
+  - "/images/products/water-bottle/YWYM-WG09/product-info.png"
 ---
 
 High-quality insulated water bottle. Double-wall vacuum insulation for temperature control. Stay hydrated with style and convenience.

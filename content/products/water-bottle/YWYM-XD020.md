@@ -23,7 +23,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-XD020/图片2.png"
   - "/images/products/water-bottle/YWYM-XD020/图片3.png"
   - "/images/products/water-bottle/YWYM-XD020/图片4.png"
-  - "/images/products/water-bottle/YWYM-XD020/产品信息.png"
+  - "/images/products/water-bottle/YWYM-XD020/product-info.png"
 ---
 
 High-quality smart water bottle. Tracks hydration with LED reminders. Stay hydrated with style and convenience.

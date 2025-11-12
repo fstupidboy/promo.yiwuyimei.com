@@ -5,7 +5,7 @@ description: "Water bottle model YWYM-S133"
 image: "/images/products/water-bottle/YWYM-S133/1.jpg"
 gallery:
   - "/images/products/water-bottle/YWYM-S133/_DSC5882.JPG"
-  - "/images/products/water-bottle/YWYM-S133/_DSC5882尺寸.jpg"
+  - "/images/products/water-bottle/YWYM-S133/_DSC5882dimensions.jpg"
   - "/images/products/water-bottle/YWYM-S133/_DSC5883.JPG"
   - "/images/products/water-bottle/YWYM-S133/_DSC5900.JPG"
   - "/images/products/water-bottle/YWYM-S133/_DSC5901.JPG"

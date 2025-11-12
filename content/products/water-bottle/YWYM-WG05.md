@@ -21,7 +21,7 @@ specifications:
 gallery:
   - "/images/products/water-bottle/YWYM-WG05/YWYM-WG05.png"
   - "/images/products/water-bottle/YWYM-WG05/图片2.jpg"
-  - "/images/products/water-bottle/YWYM-WG05/产品信息.png"
+  - "/images/products/water-bottle/YWYM-WG05/product-info.png"
 ---
 
 High-quality water bottle model YWYM-WG05. Contact us for pricing and customization.

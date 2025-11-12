@@ -24,7 +24,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-XD015/图片3.png"
   - "/images/products/water-bottle/YWYM-XD015/图片4.png"
   - "/images/products/water-bottle/YWYM-XD015/图片5.png"
-  - "/images/products/water-bottle/YWYM-XD015/产品信息.png"
+  - "/images/products/water-bottle/YWYM-XD015/product-info.png"
 ---
 
 High-quality sports water bottle. Leak-proof design with easy-flip lid. Stay hydrated with style and convenience.

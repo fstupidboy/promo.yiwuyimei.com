@@ -23,7 +23,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-VS30/图片2.png"
   - "/images/products/water-bottle/YWYM-VS30/图片3.png"
   - "/images/products/water-bottle/YWYM-VS30/图片4.png"
-  - "/images/products/water-bottle/YWYM-VS30/产品信息.png"
+  - "/images/products/water-bottle/YWYM-VS30/product-info.png"
 ---
 
 High-quality water bottle model YWYM-VS30. Contact us for pricing and customization.

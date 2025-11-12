@@ -24,7 +24,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-620S/图片3.png"
   - "/images/products/water-bottle/YWYM-620S/图片4.png"
   - "/images/products/water-bottle/YWYM-620S/图片5.png"
-  - "/images/products/water-bottle/YWYM-620S/产品信息.png"
+  - "/images/products/water-bottle/YWYM-620S/product-info.png"
 ---
 
 High-quality water bottle model YWYM-620S. Contact us for pricing and customization.

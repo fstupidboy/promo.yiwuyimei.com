@@ -22,7 +22,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-AF001U/YWYM-AF001U.png"
   - "/images/products/water-bottle/YWYM-AF001U/图片2.png"
   - "/images/products/water-bottle/YWYM-AF001U/图片3.png"
-  - "/images/products/water-bottle/YWYM-AF001U/产品信息.png"
+  - "/images/products/water-bottle/YWYM-AF001U/product-info.png"
 ---
 
 High-quality water bottle model YWYM-AF001U. Contact us for pricing and customization.

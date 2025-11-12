@@ -24,7 +24,7 @@ gallery:
   - "/images/products/water-bottle/YWYM-YT008/图片3.png"
   - "/images/products/water-bottle/YWYM-YT008/图片4.png"
   - "/images/products/water-bottle/YWYM-YT008/图片5.png"
-  - "/images/products/water-bottle/YWYM-YT008/产品信息.png"
+  - "/images/products/water-bottle/YWYM-YT008/product-info.png"
 ---
 
 High-quality water bottle model YWYM-YT008. Contact us for pricing and customization.
