@@ -224,19 +224,25 @@ main {
 
 /* Home intro text */
 .intro-text {
-  max-width: 960px;
-  margin: 1.25rem auto 1.75rem;
+  max-width: 860px; /* narrower measure improves readability */
+  margin: 1.5rem auto 2rem;
   padding: 0; /* remove card look */
   background: transparent;
   border: 0;
   border-radius: 0;
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.12rem; /* slightly larger */
+  line-height: 1.9;
   color: var(--color-text);
+  letter-spacing: 0.1px;
+  word-break: break-word;
+  hyphens: auto;
+  text-wrap: pretty;
   box-shadow: none;
 }
 
 .intro-text p:last-child { margin-bottom: 0; }
+
+.intro-text p { margin: 0 0 1.25rem; }
 
 /* Product Detail Page */
 .product-detail {
@@ -423,6 +429,13 @@ ul.pagination .active > span {
   
   main {
     padding: 0 1rem;
+  }
+
+  .intro-text {
+    max-width: 100%;
+    font-size: 1.02rem;
+    line-height: 1.75;
+    margin: 1rem 0 1.5rem;
   }
 }
 
