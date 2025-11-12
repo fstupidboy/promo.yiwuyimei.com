@@ -3,6 +3,10 @@ title: "Water Bottle YWYM-V39"
 category: "Water Bottle"
 description: "Water bottle model YWYM-V39"
 image: "/images/products/water-bottle/YWYM-V39/_DSC2844b.jpg"
+gallery:
+  - "/images/products/water-bottle/YWYM-V39/_DSC2846b.jpg"
+  - "/images/products/water-bottle/YWYM-V39/_DSC2847b.jpg"
+  - "/images/products/water-bottle/YWYM-V39/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

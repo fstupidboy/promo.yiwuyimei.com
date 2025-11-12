@@ -3,6 +3,12 @@ title: "Water Bottle YWYM-OP02"
 category: "Water Bottle"
 description: "Water bottle model YWYM-OP02"
 image: "/images/products/water-bottle/YWYM-OP02/图片1.png"
+gallery:
+  - "/images/products/water-bottle/YWYM-OP02/图片2.png"
+  - "/images/products/water-bottle/YWYM-OP02/图片3.png"
+  - "/images/products/water-bottle/YWYM-OP02/图片4.png"
+  - "/images/products/water-bottle/YWYM-OP02/图片5.png"
+  - "/images/products/water-bottle/YWYM-OP02/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

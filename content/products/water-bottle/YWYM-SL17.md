@@ -3,6 +3,8 @@ title: "Water Bottle YWYM-SL17"
 category: "Water Bottle"
 description: "Water bottle model YWYM-SL17"
 image: "/images/products/water-bottle/YWYM-SL17/图片1.png"
+gallery:
+  - "/images/products/water-bottle/YWYM-SL17/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"

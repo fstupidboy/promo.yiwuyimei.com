@@ -2,7 +2,13 @@
 title: "Water Bottle YWYM-VK60"
 category: "Water Bottle"
 description: "Water bottle model YWYM-VK60"
-image: "/images/products/water-bottle/YWYM-VK60/图片1.png"
+image: "/images/products/water-bottle/YWYM-VK60/_DSC2844b.jpg"
+gallery:
+  - "/images/products/water-bottle/YWYM-VK60/_DSC2846b.jpg"
+  - "/images/products/water-bottle/YWYM-VK60/_DSC2861b.jpg"
+  - "/images/products/water-bottle/YWYM-VK60/_DSC2862b.jpg"
+  - "/images/products/water-bottle/YWYM-VK60/_DSC2869b.jpg"
+  - "/images/products/water-bottle/YWYM-VK60/产品信息.png"
 specifications:
   - name: "Brand"
     value: "Yiwuyimei"
