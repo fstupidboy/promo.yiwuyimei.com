@@ -1,0 +1,27 @@
+{{/* Centralized SEO & social meta tags */}}
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
+{{- $desc := or .Params.description site.Params.description -}}
+{{- $canonical := .Permalink -}}
+{{- $ogImage := "" -}}
+{{- if .Params.image }}
+  {{- $ogImage = .Params.image -}}
+{{- else if site.Params.ogImage }}
+  {{- $ogImage = site.Params.ogImage -}}
+{{- else if site.Params.banners.homeImage }}
+  {{- $ogImage = site.Params.banners.homeImage -}}
+{{- else }}
+  {{- $ogImage = "/images/placeholder.jpg" -}}
+{{- end -}}
+<link rel="canonical" href="{{ $canonical }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:type" content="{{ if eq .Section "products" }}product{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ $canonical }}" />
+<meta property="og:image" content="{{ $ogImage }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $desc }}" />
+<meta name="twitter:image" content="{{ $ogImage }}" />
+<meta name="robots" content="index,follow" />
