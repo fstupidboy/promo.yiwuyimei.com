@@ -7,7 +7,7 @@ title: "Contact Us"
   
   <div class="contact-item">
     <strong>Company Name</strong>
-    Yiwuyimei
+    YIWUYIMEI
   </div>
   
   <div class="contact-item">
@@ -22,7 +22,7 @@ title: "Contact Us"
   
   <div class="contact-item">
     <strong>Address</strong>
-    Room 1304C, 13th Floor Building 19 Zhonghaixin New Industrial Park, Longgang District, Shenzhen Guangdong, China
+    Zhonghaixin New Industrial Park, Longgang District, Shenzhen Guangdong, China
   </div>
   
   <div class="contact-item">
