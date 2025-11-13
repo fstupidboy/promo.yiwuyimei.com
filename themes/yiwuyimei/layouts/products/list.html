@@ -1,0 +1,36 @@
+{{ define "main" }}
+  {{ partial "banner.html" . }}
+  <div class="category-page">
+    <h1>{{ .Title }}</h1>
+    <div class="products-grid">
+      {{- $p := .Paginate .RegularPages 24 }}
+      {{- range $p.Pages }}
+        {{- $current := . }}
+        {{- if eq .Params.category "Ceramic Mugs" }}
+          <div class="product-card no-link">
+            {{- with .Params.image }}
+              <img src="{{ . | relURL }}" alt="{{ $current.Title }}" loading="lazy" decoding="async">
+            {{- else }}
+              <img src="/images/placeholder.jpg" alt="{{ $current.Title }}" loading="lazy" decoding="async">
+            {{- end }}
+            <div class="product-card-content">
+              <h3>{{ .Title }}</h3>
+            </div>
+          </div>
+        {{- else }}
+          <a href="{{ .RelPermalink }}" class="product-card">
+            {{- with .Params.image }}
+              <img src="{{ . | relURL }}" alt="{{ $current.Title }}" loading="lazy" decoding="async">
+            {{- else }}
+              <img src="/images/placeholder.jpg" alt="{{ $current.Title }}" loading="lazy" decoding="async">
+            {{- end }}
+            <div class="product-card-content">
+              <h3>{{ .Title }}</h3>
+            </div>
+          </a>
+        {{- end }}
+      {{- end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+  </div>
+{{ end }}

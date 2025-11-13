@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <div class="home-content">
+    {{ partial "banner.html" . }}
+    <div class="intro-text">
+      {{ .Content }}
+    </div>
+    
+    {{- $products := where site.RegularPages "Section" "products" }}
+    {{- $categories := slice }}
+    {{- range $products }}
+      {{- if .Params.category }}
+        {{- $categories = $categories | append .Params.category }}
+      {{- end }}
+    {{- end }}
+    {{- $uniqueCategories := uniq $categories }}
+    
+    {{- range $uniqueCategories }}
+      {{- $category := . }}
+      <div class="category-section">
+        <h2>{{ $category }}</h2>
+        <div class="products-grid">
+          {{- $categoryProducts := where $products "Params.category" $category }}
+          {{- range first 8 $categoryProducts }}
+            <a href="{{ .RelPermalink }}" class="product-card">
+              {{- with .Params.image }}
+                <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
+              {{- else }}
+                <img src="/images/placeholder.jpg" alt="{{ $.Title }}" loading="lazy" decoding="async">
+              {{- end }}
+              <div class="product-card-content">
+                <h3>{{ .Title }}</h3>
+              </div>
+            </a>
+          {{- end }}
+        </div>
+        <div class="category-actions">
+          <a class="category-more" href="{{ (printf "/categories/%s/" (urlize $category)) | relURL }}">more...</a>
+        </div>
+      </div>
+    {{- end }}
+  </div>
+{{ end }}

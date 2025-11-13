@@ -1,0 +1,25 @@
+{{/* Reusable banner component (now with solid background, no images) */}}
+{{- $b := site.Params.banners -}}
+{{- $title := cond .IsHome site.Title .Title -}}
+{{- $subtitle := "" -}}
+
+{{- if .IsHome -}}
+  {{- with $b.homeTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.homeSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- else if and (eq .Section "products") (eq .Kind "section") -}}
+  {{- with $b.productsTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.productsSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- else if or (eq .Section "contact") (eq .Type "contact") (eq .RelPermalink "/contact/") -}}
+  {{- with $b.contactTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.contactSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- else if or (eq .Section "about") (eq .Type "about") (eq .RelPermalink "/about/") -}}
+  {{- with $b.aboutTitle }}{{ $title = . }}{{ end -}}
+  {{- with $b.aboutSubtitle }}{{ $subtitle = . }}{{ end -}}
+{{- end -}}
+
+<div class="banner banner-solid">
+  <div class="banner-overlay">
+    <h1>{{ $title }}</h1>
+    {{- with $subtitle }}<p>{{ . }}</p>{{ end -}}
+  </div>
+</div>
