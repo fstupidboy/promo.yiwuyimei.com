@@ -7,6 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		const expanded = toggle.getAttribute('aria-expanded') === 'true';
 		toggle.setAttribute('aria-expanded', String(!expanded));
 		document.body.classList.toggle('nav-open', !expanded);
+		if (!expanded) {
+			toggle.setAttribute('aria-label', 'Close navigation');
+		} else {
+			toggle.setAttribute('aria-label', 'Open navigation');
+		}
 	});
 	// Close menu when clicking a link (mobile)
 	document.addEventListener('click', (e) => {

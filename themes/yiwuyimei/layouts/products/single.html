@@ -1,22 +1,22 @@
 {{ define "main" }}
-  <article class="product-detail">
+  <article class="product-detail" aria-labelledby="product-title" itemscope itemtype="https://schema.org/Product">
     <div class="product-main-image">
       {{- $img := .Params.image | default "/images/placeholder.jpg" -}}
       {{- partial "picture.html" (dict "src" ($img | relURL) "alt" .Title "loading" "eager" "decoding" "async") -}}
     </div>
     
     <div class="product-info">
-      <h1>{{ .Title }}</h1>
+      <h1 id="product-title" itemprop="name">{{ .Title }}</h1>
       {{- with .Params.description }}
-        <p>{{ . }}</p>
+        <p itemprop="description">{{ . }}</p>
       {{- end }}
       
       {{- with .Params.specifications }}
-        <div class="product-specs">
+        <div class="product-specs" role="table" aria-label="Product specifications">
           <h3>Product Specifications</h3>
-          <ul>
+          <ul role="rowgroup">
             {{- range . }}
-              <li><strong>{{ .name }}:</strong> {{ .value }}</li>
+              <li role="row"><span role="cell"><strong>{{ .name }}:</strong></span> <span role="cell">{{ .value }}</span></li>
             {{- end }}
           </ul>
         </div>

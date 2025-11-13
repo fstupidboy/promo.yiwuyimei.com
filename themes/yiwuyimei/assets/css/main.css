@@ -25,6 +25,24 @@ body {
   text-align: center; /* center all text by default */
 }
 
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--color-primary);
+  color: #fff;
+  padding: .6rem 1rem;
+  z-index: 1000;
+  text-decoration: none;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px dashed #fff;
+  outline-offset: 2px;
+}
+
 /* Header Styles */
 header {
   background-color: var(--color-bg);

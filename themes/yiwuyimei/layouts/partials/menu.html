@@ -11,7 +11,7 @@ Renders a menu for the given menu ID with dropdown support for product categorie
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav class="main-nav">
+  <nav class="main-nav" id="site-navigation" role="navigation" aria-label="Primary">
     <ul>
       {{- range . }}
         {{- $attrs := dict "href" .URL }}
