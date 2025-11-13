@@ -34,7 +34,8 @@
           {{- end }}
         </div>
         <div class="category-actions">
-          <a class="category-more" href="{{ (printf "/categories/%s/" (urlize $category)) | relURL }}">more...</a>
+          <!-- Link to the products section for this category (section folder under content/products) -->
+          <a class="category-more" href="{{ (printf "/products/%s/" (urlize $category)) | relURL }}">more...</a>
         </div>
       </div>
     {{- end }}
