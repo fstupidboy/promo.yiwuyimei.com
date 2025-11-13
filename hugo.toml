@@ -3,6 +3,11 @@ languageCode = 'en-US'
 title = 'Yiwuyimei Product Showcase'
 theme = 'yiwuyimei'
 
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+# Optionally disallow internal search query parameters (kept simple here)
+# Disallow: /search/
+Sitemap: https://promo.yiwuyimei.com/sitemap.xml
