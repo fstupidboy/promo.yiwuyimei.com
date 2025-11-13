@@ -45,7 +45,14 @@
         {{- $font := add 0.85 (mul $norm 1.35) }}
         {{- $fontStr := printf "%.2f" $font }}
         {{- $colorClass := index $colors (mod $i (len $colors)) }}
-        <a href="{{ (printf "/categories/%s/" (urlize $c)) | relURL }}" class="cloud-word {{ $colorClass }}" style="font-size: {{ $fontStr }}rem" data-weight="{{ $count }}" title="{{ $c }} ({{ $count }})">{{ $c }}</a>
+        {{- /* Resolve taxonomy term page for the link to avoid slug mismatches */ -}}
+        {{- $.Scratch.Set "catLink" ((printf "/categories/%s/" ($c | urlize)) | relURL) -}}
+        {{- range $name, $tax := site.Taxonomies.categories -}}
+          {{- if eq (lower $name) (lower $c) -}}
+            {{- $.Scratch.Set "catLink" $tax.Page.RelPermalink -}}
+          {{- end -}}
+        {{- end -}}
+        <a href="{{ $.Scratch.Get "catLink" }}" class="cloud-word {{ $colorClass }}" style="font-size: {{ $fontStr }}rem" data-weight="{{ $count }}" title="{{ $c }} ({{ $count }})">{{ $c }}</a>
       {{- end }}
     </div>
     <div class="intro-text">
@@ -76,8 +83,14 @@
           {{- end }}
         </div>
         <div class="category-actions">
-          <!-- Link to the taxonomy category page to list all products in this group -->
-          <a class="category-more" href="{{ (printf "/categories/%s/" (urlize $category)) | relURL }}">more...</a>
+          <!-- Link to the taxonomy category page to list all products in this group (resolved via term page) -->
+          {{- $.Scratch.Set "moreLink" ((printf "/categories/%s/" ($category | urlize)) | relURL) -}}
+          {{- range $name, $tax := site.Taxonomies.categories -}}
+            {{- if eq (lower $name) (lower $category) -}}
+              {{- $.Scratch.Set "moreLink" $tax.Page.RelPermalink -}}
+            {{- end -}}
+          {{- end -}}
+          <a class="category-more" href="{{ $.Scratch.Get "moreLink" }}">more...</a>
         </div>
       </div>
     {{- end }}
