@@ -22,6 +22,7 @@ body {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, 'Microsoft YaHei', sans-serif;
   line-height: 1.7;
   background-color: var(--color-bg);
+  text-align: center; /* center all text by default */
 }
 
 /* Header Styles */
@@ -36,6 +37,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+  text-align: center;
 }
 
 .site-title {
@@ -50,6 +52,7 @@ nav ul {
   display: flex;
   gap: 2rem;
   align-items: center;
+  justify-content: center; /* center nav items */
 }
 
 nav a {
@@ -131,16 +134,23 @@ main {
   margin-bottom: 1.5rem;
 }
 
+/* Solid banner (no image) */
+.banner-solid {
+  background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 45%, #a7f3d0 100%);
+}
+
 .banner-overlay {
   position: absolute;
   inset: 0;
-  background: none; /* remove color/tint overlay */
-  color: #fff;
+  background: none; /* no tint layer needed for solid background */
+  color: var(--color-text);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center; /* center banner text */
   padding: 1.5rem 2rem;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.35); /* subtle readability without tint */
+  text-shadow: none;
+  text-align: center;
 }
 
 .banner-overlay h1 {
@@ -181,6 +191,7 @@ main {
 
 .product-card-content {
   padding: 1rem;
+  text-align: center;
 }
 
 .product-card h3 {
@@ -207,11 +218,12 @@ main {
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
   letter-spacing: 0.2px;
+  text-align: center;
 }
 
 .category-actions {
   margin-top: 0.5rem;
-  text-align: right;
+  text-align: center;
 }
 
 .category-more {
@@ -238,6 +250,7 @@ main {
   hyphens: auto;
   text-wrap: pretty;
   box-shadow: none;
+  text-align: center;
 }
 
 .intro-text p:last-child { margin-bottom: 0; }
@@ -263,6 +276,7 @@ main {
   margin-bottom: 1rem;
   font-size: 2rem;
   letter-spacing: 0.2px;
+  text-align: center;
 }
 
 .product-specs {
@@ -270,6 +284,7 @@ main {
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid #99f6e4; /* teal-200 */
+  text-align: center;
 }
 
 .product-specs h3 {
@@ -297,6 +312,7 @@ main {
 .product-gallery h3 {
   color: var(--color-primary);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .gallery-images {
@@ -338,6 +354,7 @@ main {
   margin-bottom: 1rem;
   background: white;
   border-radius: 4px;
+  text-align: center;
 }
 
 .contact-item strong {
@@ -357,6 +374,47 @@ footer {
 
 footer p {
   margin: 0.5rem 0;
+}
+
+/* About Page */
+.about-hero { text-align: center; margin: 0 0 2rem; }
+.about-hero h1 { font-size: 2.4rem; margin: 0 0 0.5rem; letter-spacing: .5px; }
+.about-hero .lead { font-size: 1.15rem; color: var(--color-muted); }
+
+.about-section { margin: 2rem 0 3rem; }
+.about-section h2 { font-size: 1.9rem; margin-bottom: 1.25rem; letter-spacing: .3px; }
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+  gap: 1.25rem;
+}
+
+.feature-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1rem 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  position: relative;
+  transition: box-shadow .25s ease, border-color .25s ease, transform .25s ease;
+  text-align: center;
+}
+.feature-item:hover { box-shadow: var(--shadow-md); border-color: rgba(13,148,136,.35); transform: translateY(-4px); }
+.feature-item h3 { margin: 0; font-size: 1.05rem; font-weight: 600; color: var(--color-primary); letter-spacing: .2px; }
+.feature-item p { margin: 0; font-size: .88rem; line-height: 1.5; color: var(--color-text); }
+
+.about-cta { text-align: center; padding: 2.5rem 1.5rem 3rem; background: linear-gradient(135deg,#f0fdfa,#ffffff); border: 1px solid #99f6e4; border-radius: 16px; box-shadow: var(--shadow-sm); }
+.about-cta h2 { font-size: 2rem; margin: 0 0 1rem; letter-spacing: .4px; }
+.about-cta p { max-width: 760px; margin: 0 auto 1.75rem; font-size: 1.02rem; line-height: 1.6; }
+.about-cta .btn { font-size: 1rem; }
+
+@media (max-width: 768px) {
+  .about-hero h1 { font-size: 1.9rem; }
+  .about-cta { padding: 2rem 1rem 2.25rem; }
+  .feature-grid { grid-template-columns: repeat(auto-fill,minmax(180px,1fr)); }
 }
 
 /* Pagination */

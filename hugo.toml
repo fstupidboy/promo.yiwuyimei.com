@@ -18,6 +18,9 @@ theme = 'yiwuyimei'
     contactTitle = 'Contact Us'
     contactSubtitle = 'Reach out for quotes & cooperation'
     defaultImage = '/images/placeholder.jpg'
+    aboutImage = '/images/banners/banner.jpg'
+    aboutTitle = 'About Yiwuyimei'
+    aboutSubtitle = 'Trusted global sourcing & promotional solutions'
   author = 'yiwuyimei'
 
 [taxonomies]
@@ -42,13 +45,13 @@ theme = 'yiwuyimei'
     weight = 2
   
   [[menu.main]]
-    identifier = 'contact'
-    name = 'Contact'
-    url = '/contact/'
-    weight = 3
-
-  [[menu.main]]
     identifier = 'about'
     name = 'About Us'
     url = '/about/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    url = '/contact/'
     weight = 4
