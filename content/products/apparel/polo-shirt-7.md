@@ -1,0 +1,17 @@
+---
+title: Polo Shirt 7
+category: Apparel
+categories:
+- Apparel
+description: Polo Shirt 7 promotional apparel item
+image: /images/products/apparel/Polo Shirt7.avif
+specifications:
+- name: Material
+  value: Polyester
+- name: SKU
+  value: POLOSHIRT7
+---
+
+Polo Shirt 7 – promotional apparel product variant.
+
+---

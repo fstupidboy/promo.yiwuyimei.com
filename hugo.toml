@@ -3,6 +3,9 @@ languageCode = 'en-US'
 title = 'Yiwuyimei Product Showcase'
 theme = 'yiwuyimei'
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   description = 'Yiwuyimei Product Showcase Website'
   # Optional: set a default Open Graph image for link previews (place the file under static/images)
@@ -55,3 +58,9 @@ theme = 'yiwuyimei'
     name = 'Contact'
     url = '/contact/'
     weight = 4
+
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 5

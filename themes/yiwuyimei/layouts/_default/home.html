@@ -1,19 +1,64 @@
 {{ define "main" }}
   <div class="home-content">
-    {{ partial "banner.html" . }}
+    {{- $products := where site.RegularPages "Section" "products" }}
+    {{- /* Build category counts for cloud */ -}}
+    {{- $catCounts := dict }}
+    {{- range $products }}
+      {{- with .Params.category }}
+        {{- $c := . }}
+        {{- $existing := index $catCounts $c }}
+        {{- if $existing }}
+          {{- $catCounts = merge $catCounts (dict $c (add $existing 1)) }}
+        {{- else }}
+          {{- $catCounts = merge $catCounts (dict $c 1) }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- $uniqueCategories := slice }}
+    {{- range $k, $v := $catCounts }}
+      {{- $uniqueCategories = $uniqueCategories | append $k }}
+    {{- end }}
+    {{- $uniqueCategories = sort $uniqueCategories }}
+    <div class="cloud-controls">
+      <div class="controls-left">
+        <span>Sort:</span>
+        <button class="btn-sort" data-sort="popular" aria-pressed="false">Popular</button>
+        <button class="btn-sort" data-sort="az" aria-pressed="false">A–Z</button>
+      </div>
+      <div class="controls-right">
+        <input type="search" class="cloud-filter" placeholder="Filter categories…" aria-label="Filter categories" />
+      </div>
+    </div>
+    <div class="word-cloud" aria-label="Product Groups">
+      {{- /* Compute min/max counts for proportional sizing */ -}}
+      {{- $minCount := 0 }}
+      {{- $maxCount := 0 }}
+      {{- range $k, $v := $catCounts }}
+        {{- if or (eq $minCount 0) (lt $v $minCount) }}{{- $minCount = $v }}{{- end }}
+        {{- if gt $v $maxCount }}{{- $maxCount = $v }}{{- end }}
+      {{- end }}
+      {{- $colors := slice "color-1" "color-2" "color-3" "color-4" "color-5" "color-6" "color-7" "color-8" }}
+      {{- range $i, $c := $uniqueCategories }}
+        {{- $count := index $catCounts $c }}
+        {{- $range := sub $maxCount $minCount }}
+        {{- $norm := cond (gt $range 0) (div (float (sub $count $minCount)) (float $range)) 0.5 }}
+        {{- $font := add 0.85 (mul $norm 1.35) }}
+        {{- $fontStr := printf "%.2f" $font }}
+        {{- $colorClass := index $colors (mod $i (len $colors)) }}
+        <a href="{{ (printf "/categories/%s/" (urlize $c)) | relURL }}" class="cloud-word {{ $colorClass }}" style="font-size: {{ $fontStr }}rem" data-weight="{{ $count }}" title="{{ $c }} ({{ $count }})">{{ $c }}</a>
+      {{- end }}
+    </div>
     <div class="intro-text">
       {{ .Content }}
     </div>
-    
-    {{- $products := where site.RegularPages "Section" "products" }}
+    {{- /* Recompute uniqueCategories list for the product sections below */ -}}
     {{- $categories := slice }}
     {{- range $products }}
-      {{- if .Params.category }}
-        {{- $categories = $categories | append .Params.category }}
+      {{- with .Params.category }}
+        {{- $categories = $categories | append . }}
       {{- end }}
     {{- end }}
-    {{- $uniqueCategories := uniq $categories }}
-    
+    {{- $uniqueCategories = uniq $categories }}
     {{- range $uniqueCategories }}
       {{- $category := . }}
       <div class="category-section">
@@ -22,11 +67,8 @@
           {{- $categoryProducts := where $products "Params.category" $category }}
           {{- range first 8 $categoryProducts }}
             <a href="{{ .RelPermalink }}" class="product-card">
-              {{- with .Params.image }}
-                <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
-              {{- else }}
-                <img src="/images/placeholder.jpg" alt="{{ $.Title }}" loading="lazy" decoding="async">
-              {{- end }}
+              {{- $img := .Params.image | default "/images/placeholder.jpg" -}}
+              {{- partial "picture.html" (dict "src" ($img | relURL) "alt" $.Title "loading" "lazy" "decoding" "async") -}}
               <div class="product-card-content">
                 <h3>{{ .Title }}</h3>
               </div>
@@ -34,8 +76,8 @@
           {{- end }}
         </div>
         <div class="category-actions">
-          <!-- Link to the products section for this category (section folder under content/products) -->
-          <a class="category-more" href="{{ (printf "/products/%s/" (urlize $category)) | relURL }}">more...</a>
+          <!-- Link to the taxonomy category page to list all products in this group -->
+          <a class="category-more" href="{{ (printf "/categories/%s/" (urlize $category)) | relURL }}">more...</a>
         </div>
       </div>
     {{- end }}

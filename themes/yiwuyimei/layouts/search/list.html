@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="search-page">
+  <h1>Search</h1>
+  <div class="search-box">
+    <input id="search-input" type="search" placeholder="Search products…" aria-label="Search products" />
+  </div>
+  <div id="search-results" class="search-results" aria-live="polite"></div>
+</article>
+<script src="/js/search.js" defer></script>
+{{ end }}

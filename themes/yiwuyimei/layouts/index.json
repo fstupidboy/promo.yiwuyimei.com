@@ -1,0 +1,13 @@
+[
+{{- $pages := where site.RegularPages "Section" "products" -}}
+{{- $last := sub (len $pages) 1 -}}
+{{- range $i, $p := $pages }}
+  {
+    "title": {{ $p.Title | jsonify }},
+    "category": {{ $p.Params.category | default "" | jsonify }},
+    "description": {{ $p.Params.description | default "" | jsonify }},
+    "url": {{ $p.RelPermalink | jsonify }},
+    "image": {{ $p.Params.image | default "/images/placeholder.jpg" | jsonify }}
+  }{{ if lt $i $last }},{{ end }}
+{{- end }}
+]

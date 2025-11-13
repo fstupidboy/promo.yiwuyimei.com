@@ -17,7 +17,7 @@ title: "Contact Us"
   
   <div class="contact-item">
     <strong>Email</strong>
-    fiona@yiwuyimei.com
+    <a href="mailto:fiona@yiwuyimei.com">fiona@yiwuyimei.com</a>
   </div>
   
   <div class="contact-item">

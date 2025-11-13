@@ -49,5 +49,5 @@ layout: "about"
 <section class="about-cta">
 	<h2>Partner With Us</h2>
 	<p>Let’s turn your brand vision into memorable physical experiences through creative, cost‑effective promotional items. Source smarter, sell faster, grow globally.</p>
-	<a class="btn" href="/contact/">Get in Touch</a>
+	<a class="btn" href="mailto:fiona@yiwuyimei.com">Get in Touch</a>
 </section>

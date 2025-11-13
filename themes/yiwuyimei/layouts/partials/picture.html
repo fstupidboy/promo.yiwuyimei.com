@@ -1,0 +1,20 @@
+{{/* Renders a <picture> with optional WebP source if it exists under /static */}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $decoding := .decoding | default "async" -}}
+{{- $class := .class -}}
+{{- $width := .width -}}
+{{- $height := .height -}}
+{{- $srcNoSlash := replaceRE "^/" "" $src -}}
+{{- $staticPath := printf "static/%s" $srcNoSlash -}}
+{{- $ext := path.Ext $staticPath -}}
+{{- $baseNoExt := replace $staticPath $ext "" -}}
+{{- $webpStatic := printf "%s.webp" $baseNoExt -}}
+{{- $webpURL := printf "/%s.webp" (replace $srcNoSlash $ext "") -}}
+<picture>
+  {{- if fileExists $webpStatic }}
+    <source type="image/webp" srcset="{{ $webpURL }}">
+  {{- end }}
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
+</picture>

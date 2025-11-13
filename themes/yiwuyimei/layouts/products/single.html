@@ -1,11 +1,8 @@
 {{ define "main" }}
   <article class="product-detail">
     <div class="product-main-image">
-      {{- with .Params.image }}
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" decoding="async">
-      {{- else }}
-        <img src="/images/placeholder.jpg" alt="{{ $.Title }}" loading="eager" decoding="async">
-      {{- end }}
+      {{- $img := .Params.image | default "/images/placeholder.jpg" -}}
+      {{- partial "picture.html" (dict "src" ($img | relURL) "alt" .Title "loading" "eager" "decoding" "async") -}}
     </div>
     
     <div class="product-info">
@@ -27,12 +24,14 @@
     </div>
   </article>
   
-  {{- with .Params.gallery }}
+  {{- $cat := .Params.category | default "" -}}
+  {{- $skipCats := slice "Apparel" "Bags" "Headwear" "Ceramic Mugs" -}}
+  {{- if and (.Params.gallery) (not (in $skipCats $cat)) }}
     <div class="product-gallery">
       <h3>Product Images</h3>
       <div class="gallery-images">
-        {{- range . }}
-          <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
+        {{- range .Params.gallery }}
+          {{- partial "picture.html" (dict "src" (. | relURL) "alt" $.Title "loading" "lazy" "decoding" "async") -}}
         {{- end }}
       </div>
     </div>
