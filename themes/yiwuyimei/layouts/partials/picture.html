@@ -21,6 +21,9 @@
 {{- $pngStatic := printf "%s.png" $baseNoExt -}}
 {{- $avifURL := printf "/%s.avif" $baseURLNoExt -}}
 {{- $webpURL := printf "/%s.webp" $baseURLNoExt -}}
+{{- /* Encode spaces/parentheses for attribute safety */ -}}
+{{- $avifAttr := ($avifURL | relURL | safeURL) -}}
+{{- $webpAttr := ($webpURL | relURL | safeURL) -}}
 {{- $jpgURL := printf "/%s.jpg" $baseURLNoExt -}}
 {{- $jpegURL := printf "/%s.jpeg" $baseURLNoExt -}}
 {{- $pngURL := printf "/%s.png" $baseURLNoExt -}}
@@ -37,10 +40,11 @@
 {{- end -}}
 <picture>
   {{- if fileExists $avifStatic }}
-    <source type="image/avif" srcset="{{ $avifURL | relURL }}" sizes="{{ $sizes }}">
+    <source type="image/avif" srcset="{{ $avifAttr }}" sizes="{{ $sizes }}">
   {{- end }}
   {{- if fileExists $webpStatic }}
-    <source type="image/webp" srcset="{{ $webpURL | relURL }}" sizes="{{ $sizes }}">
+    <source type="image/webp" srcset="{{ $webpAttr }}" sizes="{{ $sizes }}">
   {{- end }}
-  <img src="{{ $imgFallback }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ if ne $fetchPriority "auto" }}fetchpriority="{{ $fetchPriority }}"{{ end }} sizes="{{ $sizes }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
+  {{- $imgAttr := ($imgFallback | relURL | safeURL) -}}
+  <img src="{{ $imgAttr }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ if ne $fetchPriority "auto" }}fetchpriority="{{ $fetchPriority }}"{{ end }} sizes="{{ $sizes }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
 </picture>
