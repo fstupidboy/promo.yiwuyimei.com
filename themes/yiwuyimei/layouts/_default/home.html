@@ -75,7 +75,7 @@
           {{- range first 8 $categoryProducts }}
             <a href="{{ .RelPermalink }}" class="product-card">
               {{- $img := .Params.image | default "/images/placeholder.jpg" -}}
-              {{- partial "picture.html" (dict "src" ($img | relURL) "alt" $.Title "loading" "lazy" "decoding" "async") -}}
+              {{- partial "picture.html" (dict "src" ($img | relURL) "alt" .Title "loading" "lazy" "decoding" "async") -}}
               <div class="product-card-content">
                 <h3>{{ .Title }}</h3>
               </div>

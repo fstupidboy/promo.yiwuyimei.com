@@ -1,4 +1,5 @@
 ---
+image: "/images/products/PPE/Hospital Doctor Nurse Headwear1.jpg"
 title: "Goggles"
 category: "PPE"
 categories: ["PPE"]

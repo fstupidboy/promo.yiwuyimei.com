@@ -1,4 +1,5 @@
-{{/* Enhanced <picture> component: supports AVIF/WebP fallbacks, responsive sizes, optional fetchpriority */}}
+{{/* Enhanced <picture> component: supports AVIF/WebP fallbacks, responsive sizes, optional fetchpriority.
+   Ensures <img> uses a broadly supported fallback (jpg/png/webp) when original is .avif. */}}
 {{- $src := .src -}}
 {{- $alt := .alt | default "" -}}
 {{- $loading := .loading | default "lazy" -}}
@@ -15,14 +16,31 @@
 {{- $baseURLNoExt := replace $srcNoSlash $ext "" -}}
 {{- $avifStatic := printf "%s.avif" $baseNoExt -}}
 {{- $webpStatic := printf "%s.webp" $baseNoExt -}}
+{{- $jpgStatic := printf "%s.jpg" $baseNoExt -}}
+{{- $jpegStatic := printf "%s.jpeg" $baseNoExt -}}
+{{- $pngStatic := printf "%s.png" $baseNoExt -}}
 {{- $avifURL := printf "/%s.avif" $baseURLNoExt -}}
 {{- $webpURL := printf "/%s.webp" $baseURLNoExt -}}
+{{- $jpgURL := printf "/%s.jpg" $baseURLNoExt -}}
+{{- $jpegURL := printf "/%s.jpeg" $baseURLNoExt -}}
+{{- $pngURL := printf "/%s.png" $baseURLNoExt -}}
+{{- /* Compute a safe fallback for <img src>: prefer jpg/jpeg/png, then webp, else original */ -}}
+{{- $imgFallback := $src -}}
+{{- if fileExists $jpgStatic -}}
+  {{- $imgFallback = $jpgURL -}}
+{{- else if fileExists $jpegStatic -}}
+  {{- $imgFallback = $jpegURL -}}
+{{- else if fileExists $pngStatic -}}
+  {{- $imgFallback = $pngURL -}}
+{{- else if fileExists $webpStatic -}}
+  {{- $imgFallback = $webpURL -}}
+{{- end -}}
 <picture>
   {{- if fileExists $avifStatic }}
-    <source type="image/avif" srcset="{{ $avifURL }}" sizes="{{ $sizes }}">
+    <source type="image/avif" srcset="{{ $avifURL | relURL }}" sizes="{{ $sizes }}">
   {{- end }}
   {{- if fileExists $webpStatic }}
-    <source type="image/webp" srcset="{{ $webpURL }}" sizes="{{ $sizes }}">
+    <source type="image/webp" srcset="{{ $webpURL | relURL }}" sizes="{{ $sizes }}">
   {{- end }}
-  <img src="{{ $src }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ if ne $fetchPriority "auto" }}fetchpriority="{{ $fetchPriority }}"{{ end }} sizes="{{ $sizes }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
+  <img src="{{ $imgFallback }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ if ne $fetchPriority "auto" }}fetchpriority="{{ $fetchPriority }}"{{ end }} sizes="{{ $sizes }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
 </picture>

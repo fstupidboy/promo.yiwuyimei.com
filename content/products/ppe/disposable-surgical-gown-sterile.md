@@ -1,4 +1,5 @@
 ---
+image: "/images/products/PPE/Hospital Doctor Nurse Headwear2.jpg"
 title: "Disposable Surgical Gown Sterile"
 category: "PPE"
 categories: ["PPE"]

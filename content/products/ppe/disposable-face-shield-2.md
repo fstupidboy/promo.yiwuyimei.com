@@ -1,4 +1,5 @@
 ---
+image: "/images/products/PPE/Disposable Face Shield1.jpg"
 title: "Disposable Face Shield 2"
 category: "PPE"
 categories: ["PPE"]
