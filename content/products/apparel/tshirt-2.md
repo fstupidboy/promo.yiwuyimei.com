@@ -4,7 +4,6 @@ category: Apparel
 categories:
 - Apparel
 description: Tshirt 2 promotional apparel item
-image: /images/products/apparel/Tshirt2.avif
 specifications:
 - name: Material
   value: Polyester

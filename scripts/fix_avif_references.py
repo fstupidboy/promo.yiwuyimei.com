@@ -60,12 +60,16 @@ def fix_avif_references(content_dir="content/products"):
                                         line = line.replace(".avif", ".png")
                                         file_modified = True
                                     else:
+                                        # No replacement found, so we effectively delete the line
+                                        # by not appending it to modified_lines.
+                                        file_modified = True
                                         not_found.append(avif_fs_path)
+                                        continue # Skip appending this line
                 modified_lines.append(line)
             
             if file_modified:
-                new_content = "\\n".join(modified_lines)
-                md_file.write_text(new_content + "\\n", encoding="utf-8")
+                new_content = '\n'.join(modified_lines)
+                md_file.write_text(new_content + '\n', encoding="utf-8")
                 total_fixed += 1
 
         except Exception as e:

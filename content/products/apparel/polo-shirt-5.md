@@ -4,7 +4,6 @@ category: Apparel
 categories:
 - Apparel
 description: Polo Shirt 5 promotional apparel item
-image: /images/products/apparel/Polo Shirt5.avif
 specifications:
 - name: Material
   value: Polyester
