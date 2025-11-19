@@ -1,4 +1,5 @@
 ---
+image: "/images/products/apparel/Polo Shirt4.avif"
 title: Polo Shirt 4
 category: Apparel
 categories:

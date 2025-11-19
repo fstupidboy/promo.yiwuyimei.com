@@ -1,4 +1,5 @@
 ---
+image: "/images/products/apparel/Long Sleeve Shirt1.avif"
 title: Long Sleeve Shirt 1
 category: Apparel
 categories:

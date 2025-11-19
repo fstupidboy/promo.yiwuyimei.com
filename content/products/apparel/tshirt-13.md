@@ -1,4 +1,5 @@
 ---
+image: "/images/products/apparel/Tshirt13.avif"
 title: Tshirt 13
 category: Apparel
 categories:

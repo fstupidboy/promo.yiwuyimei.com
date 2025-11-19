@@ -1,4 +1,5 @@
 ---
+image: "/images/products/apparel/Hoodie5.avif"
 title: Hoodie 5
 category: Apparel
 categories:
