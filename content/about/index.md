@@ -4,7 +4,7 @@ layout: "about"
 ---
 
 <div class="about-hero">
-	<h1>About Yiwuyimei</h1>
+	<h1>YIWUYIMEI</h1>
 	<p class="lead">Global promotional product sourcing with quality, flexibility, and trusted logistics.</p>
 </div>
 

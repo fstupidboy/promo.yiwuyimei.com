@@ -1,4 +1,4 @@
-{{/* Renders a <picture> with optional WebP source if it exists under /static */}}
+{{/* Enhanced <picture> component: supports AVIF/WebP fallbacks, responsive sizes, optional fetchpriority */}}
 {{- $src := .src -}}
 {{- $alt := .alt | default "" -}}
 {{- $loading := .loading | default "lazy" -}}
@@ -6,15 +6,23 @@
 {{- $class := .class -}}
 {{- $width := .width -}}
 {{- $height := .height -}}
+{{- $sizes := .sizes | default "100vw" -}}
+{{- $fetchPriority := .fetchpriority | default "auto" -}}
 {{- $srcNoSlash := replaceRE "^/" "" $src -}}
 {{- $staticPath := printf "static/%s" $srcNoSlash -}}
 {{- $ext := path.Ext $staticPath -}}
 {{- $baseNoExt := replace $staticPath $ext "" -}}
+{{- $baseURLNoExt := replace $srcNoSlash $ext "" -}}
+{{- $avifStatic := printf "%s.avif" $baseNoExt -}}
 {{- $webpStatic := printf "%s.webp" $baseNoExt -}}
-{{- $webpURL := printf "/%s.webp" (replace $srcNoSlash $ext "") -}}
+{{- $avifURL := printf "/%s.avif" $baseURLNoExt -}}
+{{- $webpURL := printf "/%s.webp" $baseURLNoExt -}}
 <picture>
-  {{- if fileExists $webpStatic }}
-    <source type="image/webp" srcset="{{ $webpURL }}">
+  {{- if fileExists $avifStatic }}
+    <source type="image/avif" srcset="{{ $avifURL }}" sizes="{{ $sizes }}">
   {{- end }}
-  <img src="{{ $src }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
+  {{- if fileExists $webpStatic }}
+    <source type="image/webp" srcset="{{ $webpURL }}" sizes="{{ $sizes }}">
+  {{- end }}
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}" {{ if ne $fetchPriority "auto" }}fetchpriority="{{ $fetchPriority }}"{{ end }} sizes="{{ $sizes }}" {{ with $class }}class="{{ . }}"{{ end }} {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }}>
 </picture>

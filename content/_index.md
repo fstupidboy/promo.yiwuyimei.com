@@ -1,5 +1,5 @@
 ---
-title: "Yiwuyimei Product Showcase"
+title: "YIWUYIMEI Product Showcase"
 ---
 
 Yiwuyimei is a professional and dynamic international Sourcing company specializing in a wide range of high quality promotional items — including custom branded merchandise, corporate gifts, event giveaways and marketing materials. With a global suppliers network and a customer-first approach, we deliver reliable sourcing, consistent quality, and seamless logistics to partners worldwide.
