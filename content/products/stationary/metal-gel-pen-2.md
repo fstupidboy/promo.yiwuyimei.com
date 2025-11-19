@@ -1,4 +1,5 @@
 ---
+image: "/images/products/stationary/Metal Pens.jpg"
 title: "Metal Gel Pen 2"
 category: "Stationary"
 categories: ["Stationary"]

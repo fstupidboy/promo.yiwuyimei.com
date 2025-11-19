@@ -1,4 +1,5 @@
 ---
+image: "/images/products/stationary/Metal Pens.jpg"
 title: "Plastic Ball Pen 2"
 category: "Stationary"
 categories: ["Stationary"]

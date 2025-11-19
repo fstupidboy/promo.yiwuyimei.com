@@ -1,4 +1,5 @@
 ---
+image: "/images/products/stationary/Perfect Binding Journals.jpg"
 title: "Notebook Binder"
 category: "Stationary"
 categories: ["Stationary"]

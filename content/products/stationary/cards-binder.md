@@ -1,4 +1,5 @@
 ---
+image: "/images/products/stationary/Ring Binders.jpg"
 title: "Cards Binder"
 category: "Stationary"
 categories: ["Stationary"]

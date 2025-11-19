@@ -1,4 +1,5 @@
 ---
+image: "/images/products/stationary/Metal Pens.jpg"
 title: "Metal Ball Pen 1"
 category: "Stationary"
 categories: ["Stationary"]
