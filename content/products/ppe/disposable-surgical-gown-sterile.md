@@ -1,9 +1,9 @@
 ---
 image: "/images/products/PPE/Hospital Doctor Nurse Headwear2.jpg"
-title: "Disposable Surgical Gown Sterile"
+title: "Disposable Surgical Gown (Sterile)"
 category: "PPE"
 categories: ["PPE"]
-description: "Disposable Surgical Gown Sterile promotional ppe item"
+description: "Disposable Surgical Gown (Sterile) promotional ppe item"
 specifications:
   - name: "Material"
     value: "Non-woven Fabric/Plastic"
@@ -11,6 +11,6 @@ specifications:
     value: "DISPOSABLESURGICALGOWNSTERILE"
 ---
 
-Disposable Surgical Gown Sterile – promotional ppe product variant.
+Disposable Surgical Gown (Sterile) – promotional ppe product variant.
 
 ---

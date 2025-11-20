@@ -1,8 +1,8 @@
 ---
-title: "Medical Tpu Film-polyether"
+title: "Medical TPU Film-Polyether"
 category: "PPE"
 categories: ["PPE"]
-description: "Medical Tpu Film-polyether promotional ppe item"
+description: "Medical TPU Film-Polyether promotional ppe item"
 image: "/images/products/PPE/Medical TPU Film-Polyether.jpg"
 specifications:
   - name: "Material"
@@ -11,6 +11,6 @@ specifications:
     value: "MEDICALTPUFILM-POLYETHER"
 ---
 
-Medical Tpu Film-polyether – promotional ppe product variant.
+Medical TPU Film-Polyether – promotional ppe product variant.
 
 ---

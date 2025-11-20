@@ -1,9 +1,9 @@
 ---
 image: "/images/products/PPE/Hospital Doctor Nurse Headwear1.jpg"
-title: "Goggles"
+title: "Safety Goggles"
 category: "PPE"
 categories: ["PPE"]
-description: "Goggles promotional ppe item"
+description: "Safety Goggles promotional ppe item"
 specifications:
   - name: "Material"
     value: "Non-woven Fabric/Plastic"
@@ -11,6 +11,6 @@ specifications:
     value: "GOGGLES"
 ---
 
-Goggles – promotional ppe product variant.
+Safety Goggles – promotional ppe product variant.
 
 ---

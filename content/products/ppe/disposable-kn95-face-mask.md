@@ -1,9 +1,9 @@
 ---
 image: "/images/products/PPE/ASTM F2100-11 Level III Disposable Face Mask.jpg"
-title: "Disposable Kn95 Face Mask"
+title: "Disposable KN95 Face Mask"
 category: "PPE"
 categories: ["PPE"]
-description: "Disposable Kn95 Face Mask promotional ppe item"
+description: "Disposable KN95 Face Mask promotional ppe item"
 specifications:
   - name: "Material"
     value: "Non-woven Fabric/Plastic"
@@ -11,6 +11,6 @@ specifications:
     value: "DISPOSABLEKN95FACEMASK"
 ---
 
-Disposable Kn95 Face Mask – promotional ppe product variant.
+Disposable KN95 Face Mask – promotional ppe product variant.
 
 ---

@@ -1,8 +1,8 @@
 ---
-title: "Disposable Latex Free Vinyl Gloves"
+title: "Disposable Latex-Free Vinyl Gloves"
 category: "PPE"
 categories: ["PPE"]
-description: "Disposable Latex Free Vinyl Gloves promotional ppe item"
+description: "Disposable Latex-Free Vinyl Gloves promotional ppe item"
 image: "/images/products/PPE/Disposable Latex Free Vinyl Gloves.jpg"
 specifications:
   - name: "Material"
@@ -11,6 +11,6 @@ specifications:
     value: "DISPOSABLELATEXFREEVINYLGLOVES"
 ---
 
-Disposable Latex Free Vinyl Gloves – promotional ppe product variant.
+Disposable Latex-Free Vinyl Gloves – promotional ppe product variant.
 
 ---

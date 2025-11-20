@@ -1,8 +1,8 @@
 ---
-title: "Disposable Face Mask With Shield+black Uv Strip"
+title: "Disposable Face Mask with Shield + Black UV Strip"
 category: "PPE"
 categories: ["PPE"]
-description: "Disposable Face Mask With Shield+black Uv Strip promotional ppe item"
+description: "Disposable Face Mask with Shield + Black UV Strip promotional ppe item"
 image: "/images/products/PPE/Disposable Face Mask with Shield+Black UV Strip.jpg"
 specifications:
   - name: "Material"
@@ -11,6 +11,6 @@ specifications:
     value: "DISPOSABLEFACEMASKWITHSHIELD+BLACKUVSTRIP"
 ---
 
-Disposable Face Mask With Shield+black Uv Strip – promotional ppe product variant.
+Disposable Face Mask with Shield + Black UV Strip – promotional ppe product variant.
 
 ---

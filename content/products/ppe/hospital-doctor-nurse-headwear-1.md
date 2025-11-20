@@ -1,8 +1,8 @@
 ---
-title: "Hospital Doctor Nurse Headwear 1"
+title: "Hospital Doctor/Nurse Headwear (1)"
 category: "PPE"
 categories: ["PPE"]
-description: "Hospital Doctor Nurse Headwear 1 promotional ppe item"
+description: "Hospital Doctor/Nurse Headwear (1) promotional ppe item"
 image: "/images/products/PPE/Hospital Doctor Nurse Headwear1.jpg"
 specifications:
   - name: "Material"
@@ -11,6 +11,6 @@ specifications:
     value: "HOSPITALDOCTORNURSEHEADWEAR1"
 ---
 
-Hospital Doctor Nurse Headwear 1 – promotional ppe product variant.
+Hospital Doctor/Nurse Headwear (1) – promotional ppe product variant.
 
 ---
