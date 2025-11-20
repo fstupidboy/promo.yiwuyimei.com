@@ -1,5 +1,5 @@
 ---
-image: "/images/products/PPE/Hospital Doctor Nurse Headwear1.jpg"
+image: "/images/products/PPE/Goggles.avif"
 title: "Safety Goggles"
 category: "PPE"
 categories: ["PPE"]

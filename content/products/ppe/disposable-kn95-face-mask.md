@@ -1,5 +1,5 @@
 ---
-image: "/images/products/PPE/ASTM F2100-11 Level III Disposable Face Mask.jpg"
+image: "/images/products/PPE/Disposable KN95 Face Mask.avif"
 title: "Disposable KN95 Face Mask"
 category: "PPE"
 categories: ["PPE"]

@@ -1,5 +1,5 @@
 ---
-image: "/images/products/PPE/Disposable Face Shield1.jpg"
+image: "/images/products/PPE/Disposable Face Shield2.avif"
 title: "Disposable Face Shield 2"
 category: "PPE"
 categories: ["PPE"]

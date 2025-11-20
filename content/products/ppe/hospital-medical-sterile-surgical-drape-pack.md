@@ -1,5 +1,5 @@
 ---
-image: "/images/products/PPE/Waterproof Hygienic Bed Sheet.jpg"
+image: "/images/products/PPE/Hospital Medical Sterile Surgical Drape Pack.avif"
 title: "Hospital Medical Sterile Surgical Drape Pack"
 category: "PPE"
 categories: ["PPE"]

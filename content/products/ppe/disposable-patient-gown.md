@@ -1,5 +1,5 @@
 ---
-image: "/images/products/PPE/Disposable Hospital Dental Bib1.jpg"
+image: "/images/products/PPE/Disposable Patient Gown.avif"
 title: "Disposable Patient Gown"
 category: "PPE"
 categories: ["PPE"]

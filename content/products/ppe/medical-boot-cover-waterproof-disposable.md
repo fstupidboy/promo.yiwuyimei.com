@@ -1,5 +1,5 @@
 ---
-image: "/images/products/PPE/Disposable Latex Free Vinyl Gloves.jpg"
+image: "/images/products/PPE/Medical Boot Cover Waterproof Disposable.avif"
 title: "Medical Boot Cover (Waterproof, Disposable)"
 category: "PPE"
 categories: ["PPE"]
