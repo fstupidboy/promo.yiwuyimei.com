@@ -3,7 +3,7 @@ title: "Note Cubes"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Note Cubes.jpg"
-description: "Stacked note cubes. 便签纸立方体。"
+description: "Stacked note cubes."
 specs:
   material: "Paper"
   variants: ["Pastel", "Bright Colors"]

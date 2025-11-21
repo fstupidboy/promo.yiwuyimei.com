@@ -3,7 +3,7 @@ title: "Note Books"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Note Books.jpg"
-description: "Standard notebooks. 常规笔记本。"
+description: "Standard notebooks."
 specs:
   material: "Paper / Card"
   variants: ["A5", "B5"]

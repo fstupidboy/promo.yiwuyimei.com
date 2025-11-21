@@ -3,7 +3,7 @@ title: "Portfolio Pocket Folders"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Portfolio Pocket Folders.jpg"
-description: "Dual pocket portfolio folders. 双口袋文件夹。"
+description: "Dual pocket portfolio folders."
 specs:
   material: "Paper / Card"
   variants: ["A4", "Letter"]

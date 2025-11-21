@@ -3,7 +3,7 @@ title: "Document Trays"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Document Trays.jpg"
-description: "Stackable document trays. 文件托盘，可叠加。"
+description: "Stackable document trays."
 specs:
   material: "Plastic / Metal"
   variants: ["Single", "Double", "Triple Stack"]

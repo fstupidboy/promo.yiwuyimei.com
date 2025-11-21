@@ -3,7 +3,7 @@ title: "Pencil Case & Pouches"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Pencil Case and Pouches.jpg"
-description: "Assorted pencil cases and pouches. 各类笔袋。"
+description: "Assorted pencil cases and pouches."
 specs:
   material: "Fabric / PU"
   variants: ["Single Zip", "Multi Pocket"]

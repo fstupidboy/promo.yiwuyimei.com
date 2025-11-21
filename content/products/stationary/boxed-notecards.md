@@ -3,7 +3,7 @@ title: "Boxed Notecards"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Boxed Notecards.jpg"
-description: "Boxed notecards for gifting and correspondence. 盒装便笺卡，适合礼品与书信。"
+description: "Boxed notecards for gifting and correspondence."
 specs:
   material: "Paper"
   variants: ["Floral Assortment", "Minimalist Set", "Holiday Pack"]

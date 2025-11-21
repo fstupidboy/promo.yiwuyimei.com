@@ -3,7 +3,7 @@ title: "Christmas Tableware"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Christmas Tableware.jpg"
-description: "Festive Christmas tableware for seasonal events. 圣诞餐具，节日餐桌氛围。"
+description: "Festive Christmas tableware for seasonal events."
 specs:
   material: "Paper / Mixed"
   variants: ["Plates", "Napkins", "Cups"]

@@ -3,7 +3,7 @@ title: "Pen Holders"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Pen Holders.jpg"
-description: "Desk pen holders. 桌面笔筒。"
+description: "Desk pen holders."
 specs:
   material: "Plastic / Metal"
   variants: ["Single", "Multi-Section"]

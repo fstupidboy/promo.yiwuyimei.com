@@ -3,7 +3,7 @@ title: "Notepads"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Notepads.jpg"
-description: "Portable notepads. 随身便签本。"
+description: "Portable notepads."
 specs:
   material: "Paper"
   variants: ["Lined", "Checklist"]

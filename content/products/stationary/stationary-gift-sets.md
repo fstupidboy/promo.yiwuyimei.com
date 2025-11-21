@@ -3,7 +3,7 @@ title: "Stationary Gift Sets"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Stationary Gift Sets.jpg"
-description: "Curated stationery gift sets. 文具礼盒组合。"
+description: "Curated stationery gift sets."
 specs:
   material: "Mixed"
   variants: ["Office Essentials", "Creative Pack"]

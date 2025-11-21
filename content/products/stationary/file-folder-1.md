@@ -3,7 +3,7 @@ title: "File Folder 1"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/File Folder1.jpg"
-description: "Pattern file folder set style 1. 图案文件夹款式一。"
+description: "Pattern file folder set style 1."
 specs:
   material: "Paper / Card"
   variants: ["A4", "Letter"]

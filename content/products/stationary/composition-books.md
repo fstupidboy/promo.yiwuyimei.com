@@ -3,7 +3,7 @@ title: "Composition Books"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Composition Books.jpg"
-description: "Classic composition books. 经典练习簿。"
+description: "Classic composition books."
 specs:
   material: "Paper / Card Cover"
   variants: ["Black Marble", "Color Assortment"]

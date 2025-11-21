@@ -3,7 +3,7 @@ title: "Magazine Holders"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Magazine Holders.jpg"
-description: "Vertical magazine holders. 竖式杂志架。"
+description: "Vertical magazine holders."
 specs:
   material: "Board / PP"
   variants: ["Single", "Double"]

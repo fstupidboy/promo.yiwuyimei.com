@@ -3,7 +3,7 @@ title: "Clipboards"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Clipboards.jpg"
-description: "Functional clipboards for office and field use. 写字板，办公与外出使用。"
+description: "Functional clipboards for office and field use."
 specs:
   material: "MDF / Metal Clip"
   variants: ["A4 Standard", "A4 Fold-Over", "Letter"]

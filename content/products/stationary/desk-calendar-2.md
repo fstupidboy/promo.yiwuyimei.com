@@ -3,7 +3,7 @@ title: "Desk Calendar 2"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Desk Calendar2.jpg"
-description: "Monthly desk calendar style 2. 桌面月历款式二。"
+description: "Monthly desk calendar style 2."
 specs:
   material: "Paper / Spiral"
   variants: ["12-Month"]

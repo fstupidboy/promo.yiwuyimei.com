@@ -3,7 +3,7 @@ title: "Perfect Binding Journals"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Perfect Binding Journals.jpg"
-description: "Perfect bound journals. 胶装本。"
+description: "Perfect bound journals."
 specs:
   material: "Paper / Board"
   variants: ["A5", "B5"]

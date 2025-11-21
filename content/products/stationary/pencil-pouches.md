@@ -3,7 +3,7 @@ title: "Pencil Pouches"
 category: "Stationary"
 categories: ["Stationary"]
 image: "/images/products/stationary/Pencil Pouches.jpg"
-description: "Simple pencil pouches. 简约笔袋。"
+description: "Simple pencil pouches."
 specs:
   material: "Fabric / PU"
   variants: ["Single", "Assorted Colors"]
