@@ -2,15 +2,13 @@
 title: "Greeting Cards"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Greeting Cards promotional stationary item"
 image: "/images/products/stationary/Greeting Cards.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "GREETINGCARDS"
+description: "Greeting cards for all occasions. 各类贺卡。"
+specs:
+  material: "Paper"
+  variants: ["Birthday", "Thank You", "Holiday"]
+gallery:
+  - "/images/products/stationary/Greeting Cards.webp"
+  - "/images/products/stationary/Greeting Cards.jpg"
 ---
-
-Greeting Cards – promotional stationary product variant.
-
----
+High quality cards with envelopes, assorted themes.

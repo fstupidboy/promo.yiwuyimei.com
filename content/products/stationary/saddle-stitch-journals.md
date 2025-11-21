@@ -2,15 +2,13 @@
 title: "Saddle Stitch Journals"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Saddle Stitch Journals promotional stationary item"
 image: "/images/products/stationary/Saddle Stitch Journals.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "SADDLESTITCHJOURNALS"
+description: "Slim saddle stitch journals. 骑马钉本，轻薄。"
+specs:
+  material: "Paper"
+  variants: ["A5", "A6"]
+gallery:
+  - "/images/products/stationary/Saddle Stitch Journals.webp"
+  - "/images/products/stationary/Saddle Stitch Journals.jpg"
 ---
-
-Saddle Stitch Journals – promotional stationary product variant.
-
----
+Lightweight stitched booklets for planning and notes.

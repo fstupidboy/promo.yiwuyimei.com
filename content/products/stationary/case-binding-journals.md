@@ -2,15 +2,13 @@
 title: "Case Binding Journals"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Case Binding Journals promotional stationary item"
 image: "/images/products/stationary/Case Binding Journals.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "CASEBINDINGJOURNALS"
+description: "Durable case binding journals for daily writing. 精装本，耐用适合日常书写。"
+specs:
+  material: "Paper / Board"
+  variants: ["A5 Lined", "A5 Dotted", "B5 Lined"]
+gallery:
+  - "/images/products/stationary/Case Binding Journals.webp"
+  - "/images/products/stationary/Case Binding Journals.jpg"
 ---
-
-Case Binding Journals – promotional stationary product variant.
-
----
+Hardcover journals with reinforced spine for longevity and premium feel.

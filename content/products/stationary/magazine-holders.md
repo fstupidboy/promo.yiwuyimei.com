@@ -2,15 +2,13 @@
 title: "Magazine Holders"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Magazine Holders promotional stationary item"
 image: "/images/products/stationary/Magazine Holders.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "MAGAZINEHOLDERS"
+description: "Vertical magazine holders. 竖式杂志架。"
+specs:
+  material: "Board / PP"
+  variants: ["Single", "Double"]
+gallery:
+  - "/images/products/stationary/Magazine Holders.webp"
+  - "/images/products/stationary/Magazine Holders.jpg"
 ---
-
-Magazine Holders – promotional stationary product variant.
-
----
+Keeps periodicals and catalogs upright and accessible.

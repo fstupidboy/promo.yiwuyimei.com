@@ -2,15 +2,13 @@
 title: "File Folder 1"
 category: "Stationary"
 categories: ["Stationary"]
-description: "File Folder 1 promotional stationary item"
 image: "/images/products/stationary/File Folder1.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "FILEFOLDER1"
+description: "Pattern file folder set style 1. 图案文件夹款式一。"
+specs:
+  material: "Paper / Card"
+  variants: ["A4", "Letter"]
+gallery:
+  - "/images/products/stationary/File Folder1.webp"
+  - "/images/products/stationary/File Folder1.jpg"
 ---
-
-File Folder 1 – promotional stationary product variant.
-
----
+Decorative file folders for organized filing.

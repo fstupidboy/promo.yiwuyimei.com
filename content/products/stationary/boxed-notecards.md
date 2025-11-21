@@ -2,15 +2,13 @@
 title: "Boxed Notecards"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Boxed Notecards promotional stationary item"
 image: "/images/products/stationary/Boxed Notecards.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "BOXEDNOTECARDS"
+description: "Boxed notecards for gifting and correspondence. 盒装便笺卡，适合礼品与书信。"
+specs:
+  material: "Paper"
+  variants: ["Floral Assortment", "Minimalist Set", "Holiday Pack"]
+gallery:
+  - "/images/products/stationary/Boxed Notecards.webp"
+  - "/images/products/stationary/Boxed Notecards.jpg"
 ---
-
-Boxed Notecards – promotional stationary product variant.
-
----
+Premium assorted boxed notecards ideal for personal notes, invitations, and seasonal greetings.

@@ -2,15 +2,13 @@
 title: "Expanding Files"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Expanding Files promotional stationary item"
 image: "/images/products/stationary/Expanding Files.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "EXPANDINGFILES"
+description: "Accordion expanding files. 风琴文件夹。"
+specs:
+  material: "PP / Paper"
+  variants: ["A4 13-Pocket", "Letter 7-Pocket"]
+gallery:
+  - "/images/products/stationary/Expanding Files.webp"
+  - "/images/products/stationary/Expanding Files.jpg"
 ---
-
-Expanding Files – promotional stationary product variant.
-
----
+Multi-pocket expansion folder for categorized document storage.

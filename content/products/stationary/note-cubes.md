@@ -2,15 +2,13 @@
 title: "Note Cubes"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Note Cubes promotional stationary item"
 image: "/images/products/stationary/Note Cubes.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "NOTECUBES"
+description: "Stacked note cubes. 便签纸立方体。"
+specs:
+  material: "Paper"
+  variants: ["Pastel", "Bright Colors"]
+gallery:
+  - "/images/products/stationary/Note Cubes.webp"
+  - "/images/products/stationary/Note Cubes.jpg"
 ---
-
-Note Cubes – promotional stationary product variant.
-
----
+Multi-layered note paper blocks for quick memos.

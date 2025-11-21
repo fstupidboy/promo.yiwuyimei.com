@@ -2,15 +2,13 @@
 title: "Metal Pens"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Metal Pens promotional stationary item"
 image: "/images/products/stationary/Metal Pens.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "METALPENS"
+description: "Assorted metal pens. 金属笔套装。"
+specs:
+  material: "Metal"
+  variants: ["Ball", "Gel", "Assorted Colors"]
+gallery:
+  - "/images/products/stationary/Metal Pens.webp"
+  - "/images/products/stationary/Metal Pens.jpg"
 ---
-
-Metal Pens – promotional stationary product variant.
-
----
+Consolidated metal pen assortment.

@@ -2,15 +2,13 @@
 title: "Desk Calendar 1"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Desk Calendar 1 promotional stationary item"
 image: "/images/products/stationary/Desk Calendar1.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "DESKCALENDAR1"
+description: "Monthly desk calendar style 1. 桌面月历款式一。"
+specs:
+  material: "Paper / Spiral"
+  variants: ["12-Month"]
+gallery:
+  - "/images/products/stationary/Desk Calendar1.webp"
+  - "/images/products/stationary/Desk Calendar1.jpg"
 ---
-
-Desk Calendar 1 – promotional stationary product variant.
-
----
+Compact desk calendar with monthly overview and notes section.

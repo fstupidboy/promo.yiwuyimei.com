@@ -2,15 +2,13 @@
 title: "File Folder 2"
 category: "Stationary"
 categories: ["Stationary"]
-description: "File Folder 2 promotional stationary item"
 image: "/images/products/stationary/File Folder2.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "FILEFOLDER2"
+description: "Pattern file folder set style 2. 图案文件夹款式二。"
+specs:
+  material: "Paper / Card"
+  variants: ["A4", "Letter"]
+gallery:
+  - "/images/products/stationary/File Folder2.webp"
+  - "/images/products/stationary/File Folder2.jpg"
 ---
-
-File Folder 2 – promotional stationary product variant.
-
----
+Alternate decorative file folder assortment.

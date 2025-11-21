@@ -2,15 +2,12 @@
 title: "Wall Calendar 2"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Wall Calendar 2 promotional stationary item"
 image: "/images/products/stationary/Wall Calendar2.webp"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "WALLCALENDAR2"
+description: "Hanging wall calendar style 2. 挂历款式二。"
+specs:
+  material: "Paper"
+  variants: ["12-Month"]
+gallery:
+  - "/images/products/stationary/Wall Calendar2.webp"
 ---
-
-Wall Calendar 2 – promotional stationary product variant.
-
----
+Alternate design wall calendar.

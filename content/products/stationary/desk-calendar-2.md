@@ -2,15 +2,13 @@
 title: "Desk Calendar 2"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Desk Calendar 2 promotional stationary item"
 image: "/images/products/stationary/Desk Calendar2.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "DESKCALENDAR2"
+description: "Monthly desk calendar style 2. 桌面月历款式二。"
+specs:
+  material: "Paper / Spiral"
+  variants: ["12-Month"]
+gallery:
+  - "/images/products/stationary/Desk Calendar2.webp"
+  - "/images/products/stationary/Desk Calendar2.jpg"
 ---
-
-Desk Calendar 2 – promotional stationary product variant.
-
----
+Alternate design desk calendar with clean layout.

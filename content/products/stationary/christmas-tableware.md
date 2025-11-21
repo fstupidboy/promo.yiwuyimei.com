@@ -2,15 +2,13 @@
 title: "Christmas Tableware"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Christmas Tableware promotional stationary item"
 image: "/images/products/stationary/Christmas Tableware.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "CHRISTMASTABLEWARE"
+description: "Festive Christmas tableware for seasonal events. 圣诞餐具，节日餐桌氛围。"
+specs:
+  material: "Paper / Mixed"
+  variants: ["Plates", "Napkins", "Cups"]
+gallery:
+  - "/images/products/stationary/Christmas Tableware.webp"
+  - "/images/products/stationary/Christmas Tableware.jpg"
 ---
-
-Christmas Tableware – promotional stationary product variant.
-
----
+Coordinated holiday themed disposable tableware sets for parties and gatherings.

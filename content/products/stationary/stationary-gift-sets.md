@@ -2,15 +2,13 @@
 title: "Stationary Gift Sets"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Stationary Gift Sets promotional stationary item"
 image: "/images/products/stationary/Stationary Gift Sets.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "STATIONARYGIFTSETS"
+description: "Curated stationery gift sets. 文具礼盒组合。"
+specs:
+  material: "Mixed"
+  variants: ["Office Essentials", "Creative Pack"]
+gallery:
+  - "/images/products/stationary/Stationary Gift Sets.webp"
+  - "/images/products/stationary/Stationary Gift Sets.jpg"
 ---
-
-Stationary Gift Sets – promotional stationary product variant.
-
----
+Ready-to-present sets combining notebooks, pens, and accessories.

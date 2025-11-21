@@ -2,15 +2,13 @@
 title: "Pen Holders"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Pen Holders promotional stationary item"
 image: "/images/products/stationary/Pen Holders.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "PENHOLDERS"
+description: "Desk pen holders. 桌面笔筒。"
+specs:
+  material: "Plastic / Metal"
+  variants: ["Single", "Multi-Section"]
+gallery:
+  - "/images/products/stationary/Pen Holders.webp"
+  - "/images/products/stationary/Pen Holders.jpg"
 ---
-
-Pen Holders – promotional stationary product variant.
-
----
+Organizes writing tools and reduces clutter.

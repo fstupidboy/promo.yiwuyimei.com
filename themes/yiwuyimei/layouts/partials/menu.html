@@ -37,17 +37,23 @@ Renders a menu for the given menu ID with dropdown support for product categorie
               {{- end -}}
             >{{ $name }}</a>
             <div class="dropdown-content">
-              {{- $productCategories := where site.RegularPages "Section" "products" }}
+              {{- $productPages := where site.RegularPages "Section" "products" }}
               {{- $categories := slice }}
-              {{- range $productCategories }}
-                {{- if .Params.category }}
-                  {{- $categories = $categories | append .Params.category }}
+              {{- range $productPages }}
+                {{- with .Params.category }}
+                  {{- $categories = $categories | append . }}
+                {{- end }}
+                {{- with .Params.categories }}
+                  {{- range . }}
+                    {{- $categories = $categories | append . }}
+                  {{- end }}
                 {{- end }}
               {{- end }}
               {{- $uniqueCategories := uniq $categories }}
               {{- range $uniqueCategories }}
                 <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
               {{- end }}
+              <a href="/categories/stationary/">Stationary</a>
             </div>
           </li>
         {{- else }}

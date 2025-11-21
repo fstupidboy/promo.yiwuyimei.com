@@ -2,15 +2,13 @@
 title: "Spiral Binding Journals"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Spiral Binding Journals promotional stationary item"
 image: "/images/products/stationary/Spiral Binding Journals.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "SPIRALBINDINGJOURNALS"
+description: "Spiral bound journals. 螺旋装订笔记本。"
+specs:
+  material: "Paper / Metal Spiral"
+  variants: ["A5", "B5"]
+gallery:
+  - "/images/products/stationary/Spiral Binding Journals.webp"
+  - "/images/products/stationary/Spiral Binding Journals.jpg"
 ---
-
-Spiral Binding Journals – promotional stationary product variant.
-
----
+Flexible spiral binding allows full 360° page rotation.

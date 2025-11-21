@@ -2,15 +2,13 @@
 title: "Sticky Notes"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Sticky Notes promotional stationary item"
 image: "/images/products/stationary/Sticky Notes.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "STICKYNOTES"
+description: "Color sticky notes. 彩色便利贴。"
+specs:
+  material: "Paper / Adhesive"
+  variants: ["Standard", "Flag Set"]
+gallery:
+  - "/images/products/stationary/Sticky Notes.webp"
+  - "/images/products/stationary/Sticky Notes.jpg"
 ---
-
-Sticky Notes – promotional stationary product variant.
-
----
+Removable adhesive notes for quick tagging and reminders.

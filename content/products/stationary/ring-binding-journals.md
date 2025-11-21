@@ -2,15 +2,13 @@
 title: "Ring Binding Journals"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Ring Binding Journals promotional stationary item"
 image: "/images/products/stationary/Ring Binding Journals.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "RINGBINDINGJOURNALS"
+description: "Ring binding journals. 活页装订笔记本。"
+specs:
+  material: "Paper / Metal Rings"
+  variants: ["A5", "B5"]
+gallery:
+  - "/images/products/stationary/Ring Binding Journals.webp"
+  - "/images/products/stationary/Ring Binding Journals.jpg"
 ---
-
-Ring Binding Journals – promotional stationary product variant.
-
----
+Refillable ring journal system for customizable layouts.

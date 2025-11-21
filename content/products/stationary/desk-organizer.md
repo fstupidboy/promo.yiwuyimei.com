@@ -2,15 +2,13 @@
 title: "Desk Organizer"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Desk Organizer promotional stationary item"
 image: "/images/products/stationary/Desk Organizer.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "DESKORGANIZER"
+description: "Multi-compartment desk organizer. 桌面收纳盒，多分区。"
+specs:
+  material: "Plastic / Board / Metal"
+  variants: ["3-Compartment", "5-Compartment"]
+gallery:
+  - "/images/products/stationary/Desk Organizer.webp"
+  - "/images/products/stationary/Desk Organizer.jpg"
 ---
-
-Desk Organizer – promotional stationary product variant.
-
----
+Organizer for pens, notes, clips and small accessories.

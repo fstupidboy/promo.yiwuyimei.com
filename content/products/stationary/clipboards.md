@@ -2,15 +2,13 @@
 title: "Clipboards"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Clipboards promotional stationary item"
 image: "/images/products/stationary/Clipboards.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "CLIPBOARDS"
+description: "Functional clipboards for office and field use. 写字板，办公与外出使用。"
+specs:
+  material: "MDF / Metal Clip"
+  variants: ["A4 Standard", "A4 Fold-Over", "Letter"]
+gallery:
+  - "/images/products/stationary/Clipboards.webp"
+  - "/images/products/stationary/Clipboards.jpg"
 ---
-
-Clipboards – promotional stationary product variant.
-
----
+Sturdy clipboards with smooth writing surface and firm metal clip.

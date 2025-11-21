@@ -2,15 +2,13 @@
 title: "Document Trays"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Document Trays promotional stationary item"
 image: "/images/products/stationary/Document Trays.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "DOCUMENTTRAYS"
+description: "Stackable document trays. 文件托盘，可叠加。"
+specs:
+  material: "Plastic / Metal"
+  variants: ["Single", "Double", "Triple Stack"]
+gallery:
+  - "/images/products/stationary/Document Trays.webp"
+  - "/images/products/stationary/Document Trays.jpg"
 ---
-
-Document Trays – promotional stationary product variant.
-
----
+Helps organize letters, forms, and reports efficiently.

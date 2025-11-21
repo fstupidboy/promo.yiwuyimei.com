@@ -2,15 +2,13 @@
 title: "Portfolio Pocket Folders"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Portfolio Pocket Folders promotional stationary item"
 image: "/images/products/stationary/Portfolio Pocket Folders.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "PORTFOLIOPOCKETFOLDERS"
+description: "Dual pocket portfolio folders. 双口袋文件夹。"
+specs:
+  material: "Paper / Card"
+  variants: ["A4", "Letter"]
+gallery:
+  - "/images/products/stationary/Portfolio Pocket Folders.webp"
+  - "/images/products/stationary/Portfolio Pocket Folders.jpg"
 ---
-
-Portfolio Pocket Folders – promotional stationary product variant.
-
----
+Presentation folders with interior pockets for loose documents.

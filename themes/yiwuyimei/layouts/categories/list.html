@@ -3,10 +3,8 @@
     <h1>{{ .Title }}</h1>
     
     <div class="products-grid">
-      {{- $categoryName := .Title }}
-      {{- $products := where site.RegularPages "Section" "products" }}
-      {{- $categoryProducts := where $products "Params.category" $categoryName }}
-      {{- $p := .Paginate $categoryProducts 12 }}
+      {{- /* Use built-in taxonomy term .Pages */ -}}
+      {{- $p := .Paginate .Pages 12 }}
       {{- range $p.Pages }}
         <a href="{{ .RelPermalink }}" class="product-card">
           {{- with .Params.image }}

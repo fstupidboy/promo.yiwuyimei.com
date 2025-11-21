@@ -2,15 +2,13 @@
 title: "Ring Binders"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Ring Binders promotional stationary item"
 image: "/images/products/stationary/Ring Binders.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "RINGBINDERS"
+description: "Ring binders assortment. 活页夹。"
+specs:
+  material: "PVC / PP / Paper"
+  variants: ["2-Ring", "3-Ring"]
+gallery:
+  - "/images/products/stationary/Ring Binders.webp"
+  - "/images/products/stationary/Ring Binders.jpg"
 ---
-
-Ring Binders – promotional stationary product variant.
-
----
+Binder selection covering common ring formats.

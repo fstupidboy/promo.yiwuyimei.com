@@ -2,15 +2,13 @@
 title: "Pencil Pouches"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Pencil Pouches promotional stationary item"
 image: "/images/products/stationary/Pencil Pouches.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "PENCILPOUCHES"
+description: "Simple pencil pouches. 简约笔袋。"
+specs:
+  material: "Fabric / PU"
+  variants: ["Single", "Assorted Colors"]
+gallery:
+  - "/images/products/stationary/Pencil Pouches.webp"
+  - "/images/products/stationary/Pencil Pouches.jpg"
 ---
-
-Pencil Pouches – promotional stationary product variant.
-
----
+Basic pouch options for everyday use.

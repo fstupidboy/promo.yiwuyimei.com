@@ -1,16 +1,14 @@
 ---
-title: "Pencil Case And Pouches"
+title: "Pencil Case & Pouches"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Pencil Case And Pouches promotional stationary item"
 image: "/images/products/stationary/Pencil Case and Pouches.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "PENCILCASEANDPOUCHES"
+description: "Assorted pencil cases and pouches. 各类笔袋。"
+specs:
+  material: "Fabric / PU"
+  variants: ["Single Zip", "Multi Pocket"]
+gallery:
+  - "/images/products/stationary/Pencil Case and Pouches.webp"
+  - "/images/products/stationary/Pencil Case and Pouches.jpg"
 ---
-
-Pencil Case And Pouches – promotional stationary product variant.
-
----
+Protects pens and stationery items during travel.

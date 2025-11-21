@@ -25,7 +25,7 @@
   </article>
   
   {{- $cat := .Params.category | default "" -}}
-  {{- $skipCats := slice "Apparel" "Bags" "Headwear" "Ceramic Mugs" -}}
+  {{- $skipCats := slice "Apparel" "Bags" "Headwear" "Ceramic Mugs" "Stationary" -}}
   {{- if and (.Params.gallery) (not (in $skipCats $cat)) }}
     <div class="product-gallery">
       <h3>Product Images</h3>

@@ -2,15 +2,12 @@
 title: "Wall Calendar 1"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Wall Calendar 1 promotional stationary item"
 image: "/images/products/stationary/Wall Calendar1.webp"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "WALLCALENDAR1"
+description: "Hanging wall calendar style 1. 挂历款式一。"
+specs:
+  material: "Paper"
+  variants: ["12-Month"]
+gallery:
+  - "/images/products/stationary/Wall Calendar1.webp"
 ---
-
-Wall Calendar 1 – promotional stationary product variant.
-
----
+Large format wall calendar for monthly planning.

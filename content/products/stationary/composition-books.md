@@ -2,15 +2,13 @@
 title: "Composition Books"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Composition Books promotional stationary item"
 image: "/images/products/stationary/Composition Books.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "COMPOSITIONBOOKS"
+description: "Classic composition books. 经典练习簿。"
+specs:
+  material: "Paper / Card Cover"
+  variants: ["Black Marble", "Color Assortment"]
+gallery:
+  - "/images/products/stationary/Composition Books.webp"
+  - "/images/products/stationary/Composition Books.jpg"
 ---
-
-Composition Books – promotional stationary product variant.
-
----
+Traditional stitched composition notebooks for school and general writing.

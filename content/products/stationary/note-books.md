@@ -2,15 +2,13 @@
 title: "Note Books"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Note Books promotional stationary item"
 image: "/images/products/stationary/Note Books.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "NOTEBOOKS"
+description: "Standard notebooks. 常规笔记本。"
+specs:
+  material: "Paper / Card"
+  variants: ["A5", "B5"]
+gallery:
+  - "/images/products/stationary/Note Books.webp"
+  - "/images/products/stationary/Note Books.jpg"
 ---
-
-Note Books – promotional stationary product variant.
-
----
+Versatile notebooks for school, office, and personal planning.

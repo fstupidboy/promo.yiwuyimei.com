@@ -2,15 +2,13 @@
 title: "Perfect Binding Journals"
 category: "Stationary"
 categories: ["Stationary"]
-description: "Perfect Binding Journals promotional stationary item"
 image: "/images/products/stationary/Perfect Binding Journals.jpg"
-specifications:
-  - name: "Material"
-    value: "Paper/Plastic"
-  - name: "SKU"
-    value: "PERFECTBINDINGJOURNALS"
+description: "Perfect bound journals. 胶装本。"
+specs:
+  material: "Paper / Board"
+  variants: ["A5", "B5"]
+gallery:
+  - "/images/products/stationary/Perfect Binding Journals.webp"
+  - "/images/products/stationary/Perfect Binding Journals.jpg"
 ---
-
-Perfect Binding Journals – promotional stationary product variant.
-
----
+Smooth spine perfect binding journals.
