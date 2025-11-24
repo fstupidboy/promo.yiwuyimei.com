@@ -1,5 +1,6 @@
 ---
 title: "Glass Vase"
+draft: true
 ---
 
-Browse our glass vase collection with elegant designs and high-quality craftsmanship.
+This category is consolidated into Vase.

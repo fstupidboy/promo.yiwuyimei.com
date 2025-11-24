@@ -1,5 +1,6 @@
 ---
 title: "Ceramic Vase"
+draft: true
 ---
 
-Explore our ceramic vase collection featuring traditional and modern styles.
+This category is consolidated into Vase.

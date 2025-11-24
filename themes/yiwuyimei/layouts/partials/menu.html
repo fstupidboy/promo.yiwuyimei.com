@@ -50,10 +50,10 @@ Renders a menu for the given menu ID with dropdown support for product categorie
                 {{- end }}
               {{- end }}
               {{- $uniqueCategories := uniq $categories }}
+              {{- $uniqueCategories = sort $uniqueCategories }}
               {{- range $uniqueCategories }}
                 <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
               {{- end }}
-              <a href="/categories/stationary/">Stationary</a>
             </div>
           </li>
         {{- else }}
