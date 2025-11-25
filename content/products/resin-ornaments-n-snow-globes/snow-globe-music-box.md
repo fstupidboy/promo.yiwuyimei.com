@@ -1,8 +1,8 @@
 ---
 title: "Snow Globe Music Box"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Snow Globe Music Box promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Snow Globe Music Box promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/snow globe Music Box/微信图片_20251108183300_903_2.jpg"
 specifications:
   - name: "Material"
@@ -17,6 +17,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/snow globe Music Box/微信图片_20251108183306_908_2.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/snow globe Music Box/微信图片_20251108183307_909_2.jpg"
 ---
-Snow Globe Music Box – grouped Resin Ornaments & Snow Globes product comprising 7 images.
+Snow Globe Music Box – grouped Resin Ornaments Snow Globes product comprising 7 images.
 
 ---

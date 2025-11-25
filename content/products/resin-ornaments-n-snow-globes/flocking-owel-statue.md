@@ -1,8 +1,8 @@
 ---
 title: "Flocking Owel Statue"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Flocking Owel Statue promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Flocking Owel Statue promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Flocking Owel Statue/088c0a27-4eb6-4c61-9960-586bfdc14bd9.jpg"
 specifications:
   - name: "Material"
@@ -17,6 +17,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Flocking Owel Statue/9626a56a-dcf8-481a-9db8-6895f803c894.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Flocking Owel Statue/微信图片_2025-11-07_153307_728.png"
 ---
-Flocking Owel Statue – grouped Resin Ornaments & Snow Globes product comprising 7 images.
+Flocking Owel Statue – grouped Resin Ornaments Snow Globes product comprising 7 images.
 
 ---

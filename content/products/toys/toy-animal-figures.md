@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_ANIMAL_FIGURES"
 ---
-Animal Figures — generated from file Animal Figures.jpg.
 
 ---

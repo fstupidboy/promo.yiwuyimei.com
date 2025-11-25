@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_DOLL_TUMBLER_TOYS"
 ---
-Doll Tumbler Toys — generated from file Doll Tumbler Toys.jpg.
 
 ---

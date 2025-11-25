@@ -1,8 +1,8 @@
 ---
 title: "Christmas Gingerbread Pendants"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Christmas Gingerbread Pendants promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Christmas Gingerbread Pendants promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Christmas Gingerbread Pendants/1ef5ff7f-6299-4396-af70-15b43034b10e.jpg"
 specifications:
   - name: "Material"
@@ -17,6 +17,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Christmas Gingerbread Pendants/a616c142-c077-4f1f-8657-d97676f930ca.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Christmas Gingerbread Pendants/e556fcf7-8ec2-4ee5-a2c4-e9a171764066.jpg"
 ---
-Christmas Gingerbread Pendants – grouped Resin Ornaments & Snow Globes product comprising 8 images.
+Christmas Gingerbread Pendants – grouped Resin Ornaments Snow Globes product comprising 8 images.
 
 ---

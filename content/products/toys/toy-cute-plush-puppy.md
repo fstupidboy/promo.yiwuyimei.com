@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_CUTE_PLUSH_PUPPY"
 ---
-Cute Plush Puppy — generated from file Cute Plush Puppy.jpg.
 
 ---

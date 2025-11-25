@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_CUTE_PLUSH_DINOSAURS"
 ---
-Cute Plush Dinosaurs — generated from file Cute Plush Dinosaurs.jpg.
 
 ---

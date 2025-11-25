@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_CAPSULE_DINOSAUR_TOYS"
 ---
-Capsule Dinosaur Toys — generated from file Capsule Dinosaur Toys.jpg.
 
 ---

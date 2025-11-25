@@ -3,6 +3,9 @@ languageCode = 'en-US'
 title = 'Yiwuyimei Product Showcase'
 theme = 'yiwuyimei'
 
+[pagination]
+  pagerSize = 12
+
 [sitemap]
   changefreq = 'weekly'
   priority = 0.5

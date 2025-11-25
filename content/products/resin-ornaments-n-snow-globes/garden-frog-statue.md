@@ -1,8 +1,8 @@
 ---
 title: "Garden Frog Statue"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Garden Frog Statue promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Garden Frog Statue promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Garden Frog Statue/22c33c01-90ed-4ba2-81e9-eebdba520484.jpg"
 specifications:
   - name: "Material"
@@ -15,6 +15,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Garden Frog Statue/edad5490-30ab-44af-80b8-3db31205ed32.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Garden Frog Statue/微信图片_2025-11-07_152749_967.png"
 ---
-Garden Frog Statue – grouped Resin Ornaments & Snow Globes product comprising 5 images.
+Garden Frog Statue – grouped Resin Ornaments Snow Globes product comprising 5 images.
 
 ---

@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_SUPER_CUTE_SQUIRREL_PLUSH_TOY"
 ---
-Super Cute Squirrel Plush Toy — generated from file Super Cute Squirrel Plush Toy.jpg.
 
 ---

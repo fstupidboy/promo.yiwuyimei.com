@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_PLUSH_ANIMALS"
 ---
-Plush Animals — generated from file Plush Animals.jpg.
 
 ---

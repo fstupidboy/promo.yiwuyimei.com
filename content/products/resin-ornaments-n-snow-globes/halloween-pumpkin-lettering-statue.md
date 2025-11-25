@@ -1,8 +1,8 @@
 ---
 title: "Halloween Pumpkin Lettering Statue"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Halloween Pumpkin Lettering Statue promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Halloween Pumpkin Lettering Statue promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Halloween Pumpkin Lettering Statue/0a65c021-77bc-4e18-b452-2e1be783103f.jpg"
 specifications:
   - name: "Material"
@@ -20,6 +20,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Halloween Pumpkin Lettering Statue/f0efde5b-68e0-426e-bd83-84bc13c4b93d.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Halloween Pumpkin Lettering Statue/微信图片_2025-11-07_103832_830.png"
 ---
-Halloween Pumpkin Lettering Statue – grouped Resin Ornaments & Snow Globes product comprising 10 images.
+Halloween Pumpkin Lettering Statue – grouped Resin Ornaments Snow Globes product comprising 10 images.
 
 ---

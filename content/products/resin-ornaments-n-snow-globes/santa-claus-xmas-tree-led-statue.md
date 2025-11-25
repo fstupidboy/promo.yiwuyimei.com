@@ -1,8 +1,8 @@
 ---
 title: "Santa Claus Xmas Tree Led Statue"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Santa Claus Xmas Tree Led Statue promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Santa Claus Xmas Tree Led Statue promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Santa Claus Xmas tree LED Statue/125f03c9-7fd3-463f-abb8-be81ce815725.jpg"
 specifications:
   - name: "Material"
@@ -24,6 +24,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Santa Claus Xmas tree LED Statue/微信图片_2025-11-07_111425_370.png"
   - "/images/products/resin-ornaments-n-snow-globes/Santa Claus Xmas tree LED Statue/微信图片_2025-11-07_113012_369.png"
 ---
-Santa Claus Xmas Tree Led Statue – grouped Resin Ornaments & Snow Globes product comprising 14 images.
+Santa Claus Xmas Tree Led Statue – grouped Resin Ornaments Snow Globes product comprising 14 images.
 
 ---

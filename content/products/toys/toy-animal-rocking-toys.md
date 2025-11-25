@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_ANIMAL_ROCKING_TOYS"
 ---
-Animal Rocking Toys — generated from file Animal Rocking Toys.jpg.
 
 ---

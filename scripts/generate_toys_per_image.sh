@@ -22,9 +22,31 @@ for img in "$IMGDIR"/*.{jpg,JPG,jpeg,JPEG,png,PNG}; do
   stem="${bn%.*}"
   slug="toy-$(slugify "$stem")"
   mdfile="$OUTDIR/${slug}.md"
-  [[ -f "$mdfile" ]] && continue
   title="${stem}"  # Keep original capitalization
   sku="TOY_$(echo "$slug" | tr 'a-z-' 'A-Z_')"
+
+  if [[ -f "$mdfile" ]]; then
+    # Repair front matter if first line is not '---'
+    if ! head -n1 "$mdfile" | grep -q '^---$'; then
+      {
+        echo '---'
+        echo "title: \"$title\""
+        echo 'category: "Toys"'
+        echo 'categories: ["Toys"]'
+        echo "description: \"$title single-image toy product\""
+        echo "image: \"$BASE/$bn\""
+        echo 'specifications:'
+        echo '  - name: "SKU"'
+        echo "    value: \"$sku\""
+        echo '---'
+        echo
+        echo '---'
+      } > "$mdfile"
+      echo "Repaired $mdfile"
+    fi
+    continue
+  fi
+
   {
     echo '---'
     echo "title: \"$title\""
@@ -36,8 +58,8 @@ for img in "$IMGDIR"/*.{jpg,JPG,jpeg,JPEG,png,PNG}; do
     echo '  - name: "SKU"'
     echo "    value: \"$sku\""
     echo '---'
-    echo "$title — generated from file $bn."
-    echo; echo '---'
+    echo
+    echo '---'
   } > "$mdfile"
   echo "Created $mdfile"
 done

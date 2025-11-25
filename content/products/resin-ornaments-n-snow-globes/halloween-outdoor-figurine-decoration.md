@@ -1,8 +1,8 @@
 ---
 title: "Halloween Outdoor Figurine Decoration"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Halloween Outdoor Figurine Decoration promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Halloween Outdoor Figurine Decoration promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Halloween Outdoor Figurine Decoration/0006cff5-50be-4b1d-a437-37d45e8eb700.jpg"
 specifications:
   - name: "Material"
@@ -15,6 +15,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Halloween Outdoor Figurine Decoration/bd3328a5-ee9b-4a34-9082-836ff1fed691.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Halloween Outdoor Figurine Decoration/微信图片_2025-11-07_104207_453.png"
 ---
-Halloween Outdoor Figurine Decoration – grouped Resin Ornaments & Snow Globes product comprising 5 images.
+Halloween Outdoor Figurine Decoration – grouped Resin Ornaments Snow Globes product comprising 5 images.
 
 ---

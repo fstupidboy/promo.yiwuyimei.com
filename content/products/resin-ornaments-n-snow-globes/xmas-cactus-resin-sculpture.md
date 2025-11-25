@@ -1,8 +1,8 @@
 ---
 title: "Xmas Cactus Resin Sculpture"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Xmas Cactus Resin Sculpture promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Xmas Cactus Resin Sculpture promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Xmas Cactus Resin Sculpture/2d6e0e42-8b93-4197-9735-27f9d1c18864.jpg"
 specifications:
   - name: "Material"
@@ -16,6 +16,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Xmas Cactus Resin Sculpture/f6431136-be6a-4b4d-8cd1-c9ae86bcf355.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Xmas Cactus Resin Sculpture/微信图片_2025-11-07_113650_002.png"
 ---
-Xmas Cactus Resin Sculpture – grouped Resin Ornaments & Snow Globes product comprising 6 images.
+Xmas Cactus Resin Sculpture – grouped Resin Ornaments Snow Globes product comprising 6 images.
 
 ---

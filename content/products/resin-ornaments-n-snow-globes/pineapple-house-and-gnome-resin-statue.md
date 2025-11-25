@@ -1,8 +1,8 @@
 ---
 title: "Pineapple House And Gnome Resin Statue"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Pineapple House And Gnome Resin Statue promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Pineapple House And Gnome Resin Statue promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Pineapple House and Gnome Resin Statue/069e72bb-2a1d-432b-900f-d4c035f37b48.jpg"
 specifications:
   - name: "Material"
@@ -16,6 +16,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Pineapple House and Gnome Resin Statue/f8477add-539f-404d-a5f7-9e3365cc9ac2.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Pineapple House and Gnome Resin Statue/微信图片_2025-11-07_155335_070.png"
 ---
-Pineapple House And Gnome Resin Statue – grouped Resin Ornaments & Snow Globes product comprising 6 images.
+Pineapple House And Gnome Resin Statue – grouped Resin Ornaments Snow Globes product comprising 6 images.
 
 ---

@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_LOVELY_GIRAFFE_PLUSH_TOYS"
 ---
-Lovely Giraffe Plush Toys — generated from file Lovely Giraffe Plush Toys.jpg.
 
 ---

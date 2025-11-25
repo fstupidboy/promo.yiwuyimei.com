@@ -1,8 +1,8 @@
 ---
 title: "Xmas Tree Ornament"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Xmas Tree Ornament promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Xmas Tree Ornament promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Xmas Tree Ornament/微信图片_20251110204506_1048_2.jpg"
 specifications:
   - name: "Material"
@@ -19,6 +19,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Xmas Tree Ornament/微信图片_20251110204518_1056_2.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Xmas Tree Ornament/微信图片_20251110204538_1057_2.jpg"
 ---
-Xmas Tree Ornament – grouped Resin Ornaments & Snow Globes product comprising 9 images.
+Xmas Tree Ornament – grouped Resin Ornaments Snow Globes product comprising 9 images.
 
 ---

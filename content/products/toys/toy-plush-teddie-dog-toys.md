@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_PLUSH_TEDDIE_DOG_TOYS"
 ---
-Plush Teddie Dog Toys — generated from file Plush Teddie Dog Toys.jpg.
 
 ---

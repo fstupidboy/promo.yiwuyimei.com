@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_ACTION_FIGURES"
 ---
-Action Figures — generated from file Action Figures.jpg.
 
 ---

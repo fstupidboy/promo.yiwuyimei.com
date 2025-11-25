@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_TEDDY_BEAR_PLUSH_TOYS"
 ---
-Teddy Bear Plush Toys — generated from file Teddy Bear Plush Toys.jpg.
 
 ---

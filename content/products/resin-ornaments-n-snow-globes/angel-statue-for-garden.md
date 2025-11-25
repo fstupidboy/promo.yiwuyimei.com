@@ -1,8 +1,8 @@
 ---
 title: "Angel Statue For Garden"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Angel Statue For Garden promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Angel Statue For Garden promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/angel statue for garden/192cf57b-d2db-4fb2-a6a1-2a64641805e8.jpg"
 specifications:
   - name: "Material"
@@ -17,6 +17,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/angel statue for garden/c3a7e986-4e11-4988-9b25-2c8a73f4cd52.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/angel statue for garden/微信图片_2025-11-07_154213_895.png"
 ---
-Angel Statue For Garden – grouped Resin Ornaments & Snow Globes product comprising 7 images.
+Angel Statue For Garden – grouped Resin Ornaments Snow Globes product comprising 7 images.
 
 ---

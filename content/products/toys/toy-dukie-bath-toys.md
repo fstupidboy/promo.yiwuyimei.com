@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_DUKIE_BATH_TOYS"
 ---
-Dukie Bath Toys — generated from file Dukie Bath Toys.jpg.
 
 ---

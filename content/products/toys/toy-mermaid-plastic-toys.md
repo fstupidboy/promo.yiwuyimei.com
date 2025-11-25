@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_MERMAID_PLASTIC_TOYS"
 ---
-Mermaid Plastic toys — generated from file Mermaid Plastic toys.jpg.
 
 ---

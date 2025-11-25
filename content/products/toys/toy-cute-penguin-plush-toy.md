@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_CUTE_PENGUIN_PLUSH_TOY"
 ---
-Cute Penguin Plush Toy — generated from file Cute Penguin Plush Toy.jpg.
 
 ---

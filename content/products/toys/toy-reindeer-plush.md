@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_REINDEER_PLUSH"
 ---
-Reindeer Plush — generated from file Reindeer Plush.jpg.
 
 ---

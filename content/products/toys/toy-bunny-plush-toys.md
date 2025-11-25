@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_BUNNY_PLUSH_TOYS"
 ---
-Bunny Plush Toys — generated from file Bunny Plush Toys.jpg.
 
 ---

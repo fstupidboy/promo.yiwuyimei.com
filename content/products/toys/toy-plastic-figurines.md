@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_PLASTIC_FIGURINES"
 ---
-Plastic Figurines — generated from file Plastic Figurines.jpg.
 
 ---

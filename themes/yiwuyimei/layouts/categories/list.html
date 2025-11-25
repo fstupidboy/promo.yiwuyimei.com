@@ -3,9 +3,9 @@
     <h1>{{ .Title }}</h1>
     
     <div class="products-grid">
-      {{- /* Use built-in taxonomy term .Pages */ -}}
-      {{- $p := .Paginate .Pages 12 }}
-      {{- range $p.Pages }}
+      {{- /* Use native taxonomy term context: .Pages contains all pages for this term */ -}}
+      {{- $paginator := .Paginate .Pages }}
+      {{- range $paginator.Pages }}
         <a href="{{ .RelPermalink }}" class="product-card">
           {{- with .Params.image }}
             <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">

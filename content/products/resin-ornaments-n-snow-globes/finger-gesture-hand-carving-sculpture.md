@@ -1,8 +1,8 @@
 ---
 title: "Finger Gesture Hand Carving Sculpture"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Finger Gesture Hand Carving Sculpture promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Finger Gesture Hand Carving Sculpture promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Finger gesture hand carving sculpture/35d21f0b-f573-4e61-90c0-c8e5e38061c0 (1).jpg"
 specifications:
   - name: "Material"
@@ -16,6 +16,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Finger gesture hand carving sculpture/ffa2d930-a637-4e42-8b16-ee93d268a4cc.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Finger gesture hand carving sculpture/微信图片_2025-11-07_153807_672.png"
 ---
-Finger Gesture Hand Carving Sculpture – grouped Resin Ornaments & Snow Globes product comprising 6 images.
+Finger Gesture Hand Carving Sculpture – grouped Resin Ornaments Snow Globes product comprising 6 images.
 
 ---

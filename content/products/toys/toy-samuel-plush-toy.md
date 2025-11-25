@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_SAMUEL_PLUSH_TOY"
 ---
-Samuel Plush Toy — generated from file Samuel Plush Toy.jpg.
 
 ---

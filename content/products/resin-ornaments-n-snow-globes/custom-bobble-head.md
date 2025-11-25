@@ -1,8 +1,8 @@
 ---
 title: "Custom Bobble Head"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Custom Bobble Head promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Custom Bobble Head promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Custom Bobble head/0a09fdd9-9199-446c-b564-9840bfd12c3e.jpg"
 specifications:
   - name: "Material"
@@ -19,6 +19,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Custom Bobble head/cc02ff39-3129-4963-854a-2486eeb81b3e.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Custom Bobble head/da78e319-1ba5-4536-aaf1-ec9e34bdd692.jpg"
 ---
-Custom Bobble Head – grouped Resin Ornaments & Snow Globes product comprising 9 images.
+Custom Bobble Head – grouped Resin Ornaments Snow Globes product comprising 9 images.
 
 ---

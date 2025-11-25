@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_PLUSH_DOLL"
 ---
-Plush Doll — generated from file Plush Doll.jpg.
 
 ---

@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_BOWLING_TOY_SET"
 ---
-Bowling Toy Set — generated from file Bowling Toy Set.png.
 
 ---

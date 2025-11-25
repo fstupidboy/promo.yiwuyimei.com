@@ -1,8 +1,8 @@
 ---
 title: "Halloween Snow Globe"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Halloween Snow Globe promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Halloween Snow Globe promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Halloween Snow Globe/4333057a-3695-488d-b386-8d3b7a879437 (1).jpg"
 specifications:
   - name: "Material"
@@ -15,6 +15,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Halloween Snow Globe/789791b6-026f-40aa-b1ed-eac65c749996.jpg"
   - "/images/products/resin-ornaments-n-snow-globes/Halloween Snow Globe/94242306-da5d-43ac-a166-22f5e4d73126.jpg"
 ---
-Halloween Snow Globe – grouped Resin Ornaments & Snow Globes product comprising 6 images.
+Halloween Snow Globe – grouped Resin Ornaments Snow Globes product comprising 6 images.
 
 ---

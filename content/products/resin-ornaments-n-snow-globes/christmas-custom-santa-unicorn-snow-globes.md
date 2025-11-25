@@ -1,8 +1,8 @@
 ---
 title: "Christmas Custom Santa Unicorn Snow Globes"
-category: "Resin Ornaments & Snow Globes"
-categories: ["Resin Ornaments & Snow Globes"]
-description: "Christmas Custom Santa Unicorn Snow Globes promotional Resin Ornaments & Snow Globes item"
+category: "Resin Ornaments Snow Globes"
+categories: ["Resin Ornaments Snow Globes"]
+description: "Christmas Custom Santa Unicorn Snow Globes promotional Resin Ornaments Snow Globes item"
 image: "/images/products/resin-ornaments-n-snow-globes/Christmas Custom Santa Unicorn Snow Globes/152ef061-3eba-4429-b5c1-a5d2b8102b79.jpg"
 specifications:
   - name: "Material"
@@ -25,6 +25,6 @@ gallery:
   - "/images/products/resin-ornaments-n-snow-globes/Christmas Custom Santa Unicorn Snow Globes/微信图片_2025-11-07_110638_788.png"
   - "/images/products/resin-ornaments-n-snow-globes/Christmas Custom Santa Unicorn Snow Globes/微信图片_2025-11-07_110711_940.png"
 ---
-Christmas Custom Santa Unicorn Snow Globes – grouped Resin Ornaments & Snow Globes product comprising 15 images.
+Christmas Custom Santa Unicorn Snow Globes – grouped Resin Ornaments Snow Globes product comprising 15 images.
 
 ---

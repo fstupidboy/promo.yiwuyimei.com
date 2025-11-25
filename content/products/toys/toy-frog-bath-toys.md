@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_FROG_BATH_TOYS"
 ---
-Frog Bath Toys — generated from file Frog Bath Toys.jpg.
 
 ---

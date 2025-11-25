@@ -8,6 +8,5 @@ specifications:
   - name: "SKU"
     value: "TOY_TOY_CUTE_DUCKIE_TOYS"
 ---
-Cute Duckie Toys — generated from file Cute Duckie Toys.jpg.
 
 ---
