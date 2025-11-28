@@ -21,6 +21,15 @@
           </ul>
         </div>
       {{- end }}
+      
+      {{/* Get A Quote mailto button */}}
+      {{- $img := .Params.image | default "/images/placeholder.jpg" | absURL -}}
+      {{- $subject := printf "Quote request: %s" .Title | urlquery -}}
+      {{- $bodyPlain := printf "Product: %s\nLink: %s\nImage: %s\n\nQuantity: \nTarget ship date: \nCountry: \nContact (phone or email):" .Title .Permalink $img -}}
+      {{- $body := $bodyPlain | urlquery -}}
+      <p>
+        <a class="btn btn-primary get-quote" href="mailto:fiona@yiwuyimei.com?subject={{ $subject }}&body={{ $body }}">Get A Quote</a>
+      </p>
     </div>
   </article>
   
