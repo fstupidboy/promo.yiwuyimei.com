@@ -10,17 +10,11 @@ specifications:
 gallery:
   - "/images/products/tech-items/mini-fan-021/车载主1.webp"
   - "/images/products/tech-items/mini-fan-021/车载主2.jpg"
-  - "/images/products/tech-items/mini-fan-021/车载主2.webp"
   - "/images/products/tech-items/mini-fan-021/车载主3.jpg"
-  - "/images/products/tech-items/mini-fan-021/车载主3.webp"
   - "/images/products/tech-items/mini-fan-021/车载主4.jpg"
-  - "/images/products/tech-items/mini-fan-021/车载主4.webp"
   - "/images/products/tech-items/mini-fan-021/车载主5-2白色.jpg"
-  - "/images/products/tech-items/mini-fan-021/车载主5-2白色.webp"
   - "/images/products/tech-items/mini-fan-021/车载主5.jpg"
-  - "/images/products/tech-items/mini-fan-021/车载主5.webp"
   - "/images/products/tech-items/mini-fan-021/车载主6.jpg"
-  - "/images/products/tech-items/mini-fan-021/车载主6.webp"
 ---
 Mini Fan 021 tech item page generated from directory mini-fan-021.
 

@@ -23,12 +23,11 @@
       {{- end }}
       
       {{/* Get A Quote mailto button */}}
-      {{- $img := .Params.image | default "/images/placeholder.jpg" | absURL -}}
       {{- $subject := printf "Quote request: %s" .Title | urlquery -}}
-      {{- $bodyPlain := printf "Product: %s\nLink: %s\nImage: %s\n\nQuantity: \nTarget ship date: \nCountry: \nContact (phone or email):" .Title .Permalink $img -}}
+      {{- $bodyPlain := printf "Product: %s\nLink: %s\n\nQuantity: \nTarget ship date: \nCountry: \nContact (phone or email):" .Title .Permalink -}}
       {{- $body := $bodyPlain | urlquery -}}
       <p>
-        <a class="btn btn-primary get-quote" id="get-quote-btn" href="mailto:fiona@yiwuyimei.com?subject={{ $subject }}&body={{ $body }}" data-product-title="{{ .Title }}" data-product-image="{{ $img }}">Get A Quote</a>
+        <a class="btn btn-primary get-quote" id="get-quote-btn" href="mailto:fiona@yiwuyimei.com?subject={{ $subject }}&body={{ $body }}" data-product-title="{{ .Title }}">Get A Quote</a>
       </p>
       <script>
       (function(){
@@ -42,10 +41,8 @@
             var title = btn.getAttribute('data-product-title') || document.title || '';
             // use decoded current location for link so we don't double-encode
             var link = (typeof window !== 'undefined' && window.location && window.location.href) ? decodeURIComponent(window.location.href) : '';
-            var img = btn.getAttribute('data-product-image') || '';
-            try { img = decodeURIComponent(img); } catch(e) {}
             var subject = 'Quote request: ' + title;
-            var body = 'Product: ' + title + '\n' + 'Link: ' + link + '\n' + 'Image: ' + img + '\n\n' + 'Quantity: \n' + 'Target ship date: \n' + 'Country: \n' + 'Contact (phone or email): ';
+            var body = 'Product: ' + title + '\n' + 'Link: ' + link + '\n\n' + 'Quantity: \n' + 'Target ship date: \n' + 'Country: \n' + 'Contact (phone or email): ';
             var mailto = 'mailto:' + encodeURIComponent(to) + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
             // use window.location to open mail client
             window.location.href = mailto;

@@ -10,17 +10,11 @@ specifications:
 gallery:
   - "/images/products/tech-items/mini-fan-017/1.webp"
   - "/images/products/tech-items/mini-fan-017/2.jpg"
-  - "/images/products/tech-items/mini-fan-017/2.webp"
   - "/images/products/tech-items/mini-fan-017/3.jpg"
-  - "/images/products/tech-items/mini-fan-017/3.webp"
   - "/images/products/tech-items/mini-fan-017/4.jpg"
-  - "/images/products/tech-items/mini-fan-017/4.webp"
   - "/images/products/tech-items/mini-fan-017/5.jpg"
-  - "/images/products/tech-items/mini-fan-017/5.webp"
   - "/images/products/tech-items/mini-fan-017/6.jpg"
-  - "/images/products/tech-items/mini-fan-017/6.webp"
   - "/images/products/tech-items/mini-fan-017/7.jpg"
-  - "/images/products/tech-items/mini-fan-017/7.webp"
 ---
 Mini Fan 017 tech item page generated from directory mini-fan-017.
 

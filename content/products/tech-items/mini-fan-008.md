@@ -10,13 +10,9 @@ specifications:
 gallery:
   - "/images/products/tech-items/mini-fan-008/1.webp"
   - "/images/products/tech-items/mini-fan-008/2.jpg"
-  - "/images/products/tech-items/mini-fan-008/2.webp"
   - "/images/products/tech-items/mini-fan-008/3.jpg"
-  - "/images/products/tech-items/mini-fan-008/3.webp"
   - "/images/products/tech-items/mini-fan-008/4.jpg"
-  - "/images/products/tech-items/mini-fan-008/4.webp"
   - "/images/products/tech-items/mini-fan-008/5.jpg"
-  - "/images/products/tech-items/mini-fan-008/5.webp"
 ---
 Mini Fan 008 tech item page generated from directory mini-fan-008.
 

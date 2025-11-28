@@ -10,13 +10,9 @@ specifications:
 gallery:
   - "/images/products/tech-items/mini-fan-035/01.webp"
   - "/images/products/tech-items/mini-fan-035/02.jpg"
-  - "/images/products/tech-items/mini-fan-035/02.webp"
   - "/images/products/tech-items/mini-fan-035/03.jpg"
-  - "/images/products/tech-items/mini-fan-035/03.webp"
   - "/images/products/tech-items/mini-fan-035/04.jpg"
-  - "/images/products/tech-items/mini-fan-035/04.webp"
   - "/images/products/tech-items/mini-fan-035/05.jpg"
-  - "/images/products/tech-items/mini-fan-035/05.webp"
 ---
 Mini Fan 035 tech item page generated from directory mini-fan-035.
 
