@@ -1,0 +1,34 @@
+{{/* JSON-LD Product schema for product detail pages */}}
+{{ if eq .Section "products" }}
+  {{- $scratch := newScratch -}}
+  {{- $scratch.Set "images" (slice) -}}
+  {{ with .Params.image }}{{- $scratch.Set "images" ( $scratch.Get "images" | append . ) -}}{{ end }}
+  {{ with .Params.gallery }}{{ range . }}{{- $scratch.Set "images" ( $scratch.Get "images" | append . ) -}}{{ end }}{{ end }}
+  {{- $images := $scratch.Get "images" -}}
+  {{- $scratch.Set "sku" "" -}}
+  {{- $scratch.Set "material" "" -}}
+  {{- range .Params.specifications }}
+    {{- $n := lower .name -}}
+    {{- if eq $n "sku" }}{{- $scratch.Set "sku" .value -}}{{ end -}}
+    {{- if eq $n "material" }}{{- $scratch.Set "material" .value -}}{{ end -}}
+  {{- end -}}
+  {{- $sku := $scratch.Get "sku" -}}
+  {{- $material := $scratch.Get "material" -}}
+  {{- $title := .Title -}}
+  {{- $desc := or .Params.description site.Params.description -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ $title }}",
+    "description": "{{ $desc }}",
+    {{- if $sku }}"sku": "{{ $sku }}",
+    {{- end }}
+    {{- if $material }}"material": "{{ $material }}",
+    {{- end }}
+    "category": "{{ with .Params.categories }}{{ delimit . "," }}{{ else }}{{ with .Params.category }}{{ . }}{{ end }}{{ end }}",
+    "brand": {"@type": "Brand", "name": "{{ site.Title }}"},
+    "image": [{{- range $i, $img := $images -}}{{- if gt $i 0 }}, {{ end }}"{{ $img }}"{{- end -}}]
+  }
+  </script>
+{{ end }}

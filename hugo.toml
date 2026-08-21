@@ -1,0 +1,74 @@
+baseURL = 'https://promo.yiwuyimei.com/'
+languageCode = 'en-US'
+title = 'Yiwuyimei Product Showcase'
+theme = 'yiwuyimei'
+
+[pagination]
+  pagerSize = 12
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = 'Yiwuyimei Product Showcase Website'
+  # Optional: set a default Open Graph image for link previews (place the file under static/images)
+  # ogImage = '/images/placeholder.jpg'
+  [params.banners]
+    homeImage = '/images/banners/banner.jpg'
+    homeTitle = 'Yiwuyimei Products'
+    homeSubtitle = 'Quality vases & bottles for modern lifestyles'
+  productsImage = '/images/banners/products_1200.jpg'
+    productsTitle = 'Browse Products'
+    productsSubtitle = 'Explore our full collection'
+  contactImage = '/images/banners/mobile-banner.png'
+    contactTitle = 'Contact Us'
+    contactSubtitle = 'Reach out for quotes & cooperation'
+    defaultImage = '/images/placeholder.jpg'
+    aboutImage = '/images/banners/banner.jpg'
+    aboutTitle = 'About Yiwuyimei'
+    aboutSubtitle = 'Trusted global sourcing & promotional solutions'
+  author = 'yiwuyimei'
+
+[taxonomies]
+  category = 'categories'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  
+  [[menu.main]]
+    identifier = 'products'
+    name = 'Products'
+    url = '/products/'
+    weight = 2
+  
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About Us'
+    url = '/about/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    url = '/contact/'
+    weight = 4
+
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 5

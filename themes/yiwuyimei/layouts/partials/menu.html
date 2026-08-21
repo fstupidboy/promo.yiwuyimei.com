@@ -1,0 +1,73 @@
+{{- /*
+Renders a menu for the given menu ID with dropdown support for product categories.
+
+@context {page} page The current page.
+@context {string} menuID The menu ID.
+
+@example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+*/}}
+
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  <nav class="main-nav" id="site-navigation" role="navigation" aria-label="Primary">
+    <ul>
+      {{- range . }}
+        {{- $attrs := dict "href" .URL }}
+        {{- if $page.IsMenuCurrent .Menu . }}
+          {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
+        {{- else if $page.HasMenuCurrent .Menu .}}
+          {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+        {{- end }}
+        {{- $name := .Name }}
+        {{- with .Identifier }}
+          {{- with T . }}
+            {{- $name = . }}
+          {{- end }}
+        {{- end }}
+        
+        {{- if eq .Identifier "products" }}
+          <li class="dropdown">
+            <a
+              {{- range $k, $v := $attrs }}
+                {{- with $v }}
+                  {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+                {{- end }}
+              {{- end -}}
+            >{{ $name }}</a>
+            <div class="dropdown-content">
+              {{- $productPages := where site.RegularPages "Section" "products" }}
+              {{- $categories := slice }}
+              {{- range $productPages }}
+                {{- with .Params.category }}
+                  {{- $categories = $categories | append . }}
+                {{- end }}
+                {{- with .Params.categories }}
+                  {{- range . }}
+                    {{- $categories = $categories | append . }}
+                  {{- end }}
+                {{- end }}
+              {{- end }}
+              {{- $uniqueCategories := uniq $categories }}
+              {{- $uniqueCategories = sort $uniqueCategories }}
+              {{- range $uniqueCategories }}
+                <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
+              {{- end }}
+            </div>
+          </li>
+        {{- else }}
+          <li>
+            <a
+              {{- range $k, $v := $attrs }}
+                {{- with $v }}
+                  {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+                {{- end }}
+              {{- end -}}
+            >{{ $name }}</a>
+          </li>
+        {{- end }}
+      {{- end }}
+    </ul>
+  </nav>
+{{- end }}
