@@ -1,0 +1,4 @@
+baseURL = 'https://promo.yiwuyimei.com/'
+languageCode = 'en-us'
+title = 'Promo'
+enableRobotsTXT = false
